@@ -1,0 +1,20 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --main-bg-color: #fbfaff;
+  --main-color: #f09279;
+  --scondary-color: #3d819d;
+  --font-color: #707070;
+}
+
+/* General rules */
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--font-color);
+}
