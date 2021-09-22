@@ -19,6 +19,13 @@ body {
   color: var(--font-color);
 }
 
+.btn {
+  background-color: var(--main-color);
+  color: #fff;
+  width: 288px;
+  height: 50px;
+}
+
 /* WELCOME SCREE STYLING */
 #welcome-screen {
   height: 100vh;
