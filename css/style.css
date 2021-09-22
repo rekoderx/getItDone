@@ -18,3 +18,19 @@ body {
   font-family: Poppins, sans-serif;
   color: var(--font-color);
 }
+
+/* WELCOME SCREE STYLING */
+#welcomeScreen {
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcomeScreen h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
