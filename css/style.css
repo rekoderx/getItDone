@@ -13,7 +13,7 @@
   --font-color: #707070;
 }
 
-/* General rules */
+/* GENERAL RULES */
 body {
   font-family: Poppins, sans-serif;
   color: var(--font-color);
@@ -24,6 +24,12 @@ body {
   color: #fff;
   width: 288px;
   height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.onboarding-btn {
+  width: 144px;
 }
 
 section {
@@ -44,4 +50,24 @@ section {
   color: #fff;
   font-size: 50px;
   text-align: center;
+}
+
+/* ONBOARDING 1 STYLING */
+#onboarding-one .container {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#onboarding-one .container .onboarding-one-text {
+  text-align: center;
+}
+
+#onboarding-one .container .onboarding-one-text h2 {
+  margin-bottom: 32px;
 }
