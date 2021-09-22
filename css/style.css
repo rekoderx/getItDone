@@ -20,7 +20,7 @@ body {
 }
 
 /* WELCOME SCREE STYLING */
-#welcomeScreen {
+#welcome-screen {
   height: 100vh;
   background-color: var(--main-color);
   display: flex;
@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-#welcomeScreen h2 {
+#welcome-screen h2 {
   font-weight: 700;
   color: #fff;
   font-size: 50px;
