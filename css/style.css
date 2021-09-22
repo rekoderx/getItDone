@@ -26,6 +26,10 @@ body {
   height: 50px;
 }
 
+section {
+  height: 100vh;
+}
+
 /* WELCOME SCREE STYLING */
 #welcome-screen {
   height: 100vh;
