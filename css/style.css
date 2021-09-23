@@ -34,9 +34,9 @@ body {
   width: 144px;
 }
 
-section {
+/* section {
   height: 100vh;
-}
+} */
 
 /* WELCOME SCREE STYLING */
 #welcome-screen {
@@ -428,45 +428,6 @@ section {
   font-weight: 400;
 }
 
-/* Request form */
-#request-form {
-  padding: 56px;
-  height: 100vh;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#request-form .upload-button {
-  background-color: #fff;
-  color: #5d5d5d;
-  border-radius: 10px;
-  padding: 15px;
-  border: 1px solid #ccc;
-  font-family: "Poppins";
-  margin-bottom: 5%;
-}
-
-#request-form .label-input-div {
-  margin-bottom: 7%;
-}
-
-/* Receipt page */
-#receipt {
-  padding: 56px;
-  height: 100vh;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#receipt .congratulations-div {
-}
-
 #home .main-menu,
 #categories .main-menu {
   width: 80%;
@@ -561,4 +522,38 @@ section {
   grid-area: area10;
 }
 
-/* FREELANCERS PAGE STYLING */
+/* Request form */
+#request-form {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#request-form .upload-button {
+  background-color: #fff;
+  color: #5d5d5d;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-family: "Poppins";
+  margin-bottom: 5%;
+}
+
+#request-form .label-input-div {
+  margin-bottom: 7%;
+}
+
+/* Receipt page */
+#receipt {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
