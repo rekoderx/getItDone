@@ -107,6 +107,11 @@ section {
   color: var(--scondary-color);
 }
 
+/* styling the login type page */
+#logintype {
+  padding: 56px;
+  height: 100vh;
+}
 /* MAIN PAGE STYLING (HOME) */
 #home {
   height: auto;
@@ -118,6 +123,96 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#logintype .logintype-buttons {
+  text-align: center;
+}
+
+.loginas {
+  padding: 5%;
+  float: left;
+}
+
+.or {
+  padding: 5%;
+  float: left;
+}
+
+/* Login as a  customer */
+#login-customer {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-login {
+  color: #3c819d;
+  text-align: center;
+}
+
+.label {
+  color: #80878f;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.label-input-div {
+  display: grid;
+}
+
+.forgot {
+  float: right;
+}
+.or2-options {
+  text-align: center;
+}
+
+.login-with-buttons {
+  border-radius: 10px;
+  padding: 15px;
+  color: #9ba1a8;
+  border-color: #afafaf;
+  background-color: #fff;
+}
+
+/* Create a user account */
+#create-useraccount {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Login as a freelancer */
+#login-freelancer {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Create a freelancer account */
+#create-freelanceraccount {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   align-items: center;
 }
 
