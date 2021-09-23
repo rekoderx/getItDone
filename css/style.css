@@ -117,17 +117,6 @@ section {
   align-items: flex-start;
 }
 /* MAIN PAGE STYLING (HOME) */
-#home {
-  height: auto;
-}
-
-#home .container {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 #logintype .logintype-buttons {
   text-align: center;
@@ -280,6 +269,19 @@ section {
 }
 
 /* MAIN PAGE STYLING */
+#home {
+  height: auto;
+  background-color: var(--main-bg-color);
+}
+
+#home .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #home .container,
 #categories .container {
   width: 100%;
@@ -375,10 +377,6 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 32px;
-}
-
-#home {
-  background-color: var(--main-bg-color);
 }
 
 #home .previous-requests {
