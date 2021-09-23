@@ -113,25 +113,34 @@
     </section>
 <!-------Login as a customer------->
     <section id="login-customer">
-      <h3 class="heading-login">Log in as a customer</h3>
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+          <h3 class="heading-login">Log in as a customer</h3>
+      </div>
+      
       <form>
         <div class="label-input-div">
-        <label class="label">Username</label>
-        <input class="input" type="text" name="username" placeholder="username"></input>
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder="Your Username"></input>
+        </div>
+        <div class="label-input-div login-customer-email">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="username" placeholder="Your Email"></input>
         </div>
         <div class="label-input-div">
-         <label class="label">Email</label>
-        <input class="input" type="text" name="username" placeholder="Your Email"></input>
-      </div>
-      <div class="label-input-div">
-         <label class="label">Password</label>
-         <a class="forgot" href="">Forgot password?</a>
-        <input class="input" type="text" name="username" placeholder="Password"></input>
+          <div class="password">
+            <label class="label">Password</label>
+            <a class="forgot" href="">Forgot password?</a>
+          </div>
+          <input class="input" type="text" name="username" placeholder="Choose Password"></input>
         </div>
         
       </form>
-      <button type="button" class="btn">Login</button>
-      <p>Don't have an account? <a href="" class="signup-link">Sign up</a> </p>
+      <button type="button" class="btn login">Login</button>
+      <div class="account-text">
+        <p class="account-text">Don't have an account?</p>
+        <a href="#" class="signup-link">Sign up</a>
+      </div>
       <p class="or2-options">or</p>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
@@ -140,48 +149,48 @@
 
     <!-----Create a user acoount--->
     <section id="create-useraccount">
-<h3 class="heading-login">Create a user account</h3>
-<form>
-  <div class="label-input-div">
-  <label class="label">Username</label>
-  <input class="input" type="text" name="username" placeholder=" Your username">
-  </div>
-  <div class="label-input-div">
-  <label class="label">Full name</label>
-  <input class="input" type="text name="fullname" placeholder="Your full name">
-  </div>
-  <div class="label-input-div">
-  <label class="label">Email</label>
-  <input class="input" type="text" name="email" placeholder="Your email">
-  </div>
-  <div class="label-input-div">
-  <label class="label">Password</label>
-  <input class="input" type="text" name="password" placeholder="Your password">
-  </div>
-  <div class="label-input-div">
-  <label class="label">Password again</label>
-  <input class="input" type="text" name="passwordagain" placeholder="Your password again">
-  </div>
-</form>
-<p>Already have an account? <a href="" class="singin-link">Sing in</a></p>
-<button type="button" class="btn">Create an account</button>
+      <h3 class="heading-login">Create a user account</h3>
+      <form>
+        <div class="label-input-div">
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder=" Your username">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Full name</label>
+          <input class="input" type="text name="fullname" placeholder="Your full name">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="email" placeholder="Your email">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Password</label>
+          <input class="input" type="text" name="password" placeholder="Your password">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Password again</label>
+          <input class="input" type="text" name="passwordagain" placeholder="Your password again">
+        </div>
+      </form>
+      <p>Already have an account? <a href="" class="singin-link">Sing in</a></p>
+      <button type="button" class="btn">Create an account</button>
     </section>
 
     <!----Login as a freelancer-->
-      <section id="login-freelancer">
+    <section id="login-freelancer">
       <h3 class="heading-login">Log in as a freelancer</h3>
       <form>
         <div class="label-input-div">
-        <label class="label">Username</label>
-        <input class="input" type="text" name="username" placeholder="username"></input>
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder="username"></input>
         </div>
         <div class="label-input-div">
-         <label class="label">Email</label>
-        <input class="input" type="text" name="username" placeholder="Your Email"></input>
+          <label class="label">Email</label>
+          <input class="input" type="text" name="username" placeholder="Your Email"></input>
         </div>
         <div class="label-input-div">
-         <label class="label">Password</label>
-        <input class="input" type="text" name="username" placeholder="Password"></input>
+          <label class="label">Password</label>
+          <input class="input" type="text" name="username" placeholder="Password"></input>
         </div>
         <a href="">Forgot password?</a>
       </form>

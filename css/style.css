@@ -111,6 +111,10 @@ section {
 #logintype {
   padding: 56px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 /* MAIN PAGE STYLING (HOME) */
 #home {
@@ -150,13 +154,54 @@ section {
   justify-content: space-between;
 }
 
+#login-customer .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .heading-login {
   color: #3c819d;
   text-align: center;
+  margin-left: 24px;
 }
 
 .label {
   color: #80878f;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#login-customer .login {
+  margin-top: 16px;
+}
+
+#login-customer ::placeholder {
+  color: #d3d3d3;
+}
+
+#login-customer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+#login-customer .signup-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#login-customer .account-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#login-customer .account-text p {
+  font-size: 12px;
+  margin-right: 6px;
 }
 
 .input {
@@ -164,23 +209,41 @@ section {
   padding: 15px;
   border: 1px solid #ccc;
 }
+
+.login-customer-email {
+  margin: 16px 0;
+}
+
 .label-input-div {
   display: grid;
 }
 
-.forgot {
-  float: right;
+.password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+#login-customer .forgot {
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 600;
+  color: #777;
+}
+
 .or2-options {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .login-with-buttons {
   border-radius: 10px;
   padding: 15px;
   color: #9ba1a8;
-  border-color: #afafaf;
+  border: 1px solid #ccc;
   background-color: #fff;
+  font-family: "Poppins";
 }
 
 /* Create a user account */
@@ -213,6 +276,16 @@ section {
   flex-direction: column;
   justify-content: space-between;
 
+  align-items: center;
+}
+
+/* MAIN PAGE STYLING */
+#home .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
