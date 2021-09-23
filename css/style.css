@@ -23,7 +23,7 @@ body {
 .btn {
   background-color: var(--main-color);
   color: #fff;
-  width: 288px;
+  width: 302px;
   height: 50px;
   border: none;
   border-radius: 10px;
@@ -117,17 +117,6 @@ section {
   align-items: flex-start;
 }
 /* MAIN PAGE STYLING (HOME) */
-#home {
-  height: auto;
-}
-
-#home .container {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 #logintype .logintype-buttons {
   text-align: center;
@@ -280,7 +269,21 @@ section {
 }
 
 /* MAIN PAGE STYLING */
+#home {
+  height: auto;
+  background-color: var(--main-bg-color);
+}
+
 #home .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home .container,
+#categories .container {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -352,18 +355,16 @@ section {
 }
 
 #home .seeall {
-  /* width: 90%; */
   font-weight: 500;
   font-size: 14px;
   color: var(--scondary-color);
-  /* margin-top: 16px; */
   align-self: flex-end;
   margin-right: 40px;
   text-decoration: none;
 }
 
 #home .line {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   height: 1px;
   background-color: #d5d5d5;
@@ -371,15 +372,11 @@ section {
 }
 
 #home h3 {
-  width: 90%;
+  width: 80%;
   color: var(--scondary-color);
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 32px;
-}
-
-#home {
-  background-color: var(--main-bg-color);
 }
 
 #home .previous-requests {
@@ -394,7 +391,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  width: 375px;
+  width: 352px;
   background-color: #fff;
   margin-bottom: 16px;
   box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
@@ -404,7 +401,7 @@ section {
 #home .previous-requests .previous-requests-card .request-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -419,7 +416,7 @@ section {
 }
 
 #home .previous-requests .previous-requests-card .request-text .date {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 200;
   font-style: italic;
 }
@@ -469,3 +466,99 @@ section {
 
 #receipt .congratulations-div {
 }
+
+#home .main-menu,
+#categories .main-menu {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
+#home .main-menu .menu,
+#categories .main-menu .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .main-menu .menu .fas,
+#categories .main-menu .menu .fas {
+  font-size: 32px;
+  color: var(--scondary-color);
+}
+
+#home .main-menu .menu .fa-home,
+#categories .main-menu .menu .fa-home {
+  color: var(--main-color);
+}
+
+/* CATEGORIES STYLING */
+#categories {
+  background-color: #fbfaff;
+}
+
+#categories .arrow-title {
+  width: 80%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#categories .arrow-title h3 {
+  font-size: 24px;
+  margin-left: 110px;
+}
+
+#categories .arrow-title .fas {
+  text-align: left;
+}
+
+#categories .container .cards-container {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 32px;
+  grid-template-areas:
+    "area1 area2"
+    "area3 area4"
+    "area5 area6"
+    "area7 area8"
+    "area9 area10";
+}
+.area1 {
+  grid-area: area1;
+}
+.area2 {
+  grid-area: area2;
+}
+.area3 {
+  grid-area: area3;
+}
+.area4 {
+  grid-area: area4;
+}
+.area5 {
+  grid-area: area5;
+}
+.area6 {
+  grid-area: area6;
+}
+.area7 {
+  grid-area: area7;
+}
+.area8 {
+  grid-area: area8;
+}
+.area9 {
+  grid-area: area9;
+}
+.area10 {
+  grid-area: area10;
+}
+
+/* FREELANCERS PAGE STYLING */
