@@ -55,6 +55,11 @@ section {
 }
 
 /* ONBOARDINGS STYLING */
+#onboarding-two .container .left-arrow,
+#onboarding-three .container .left-arrow {
+  align-self: flex-start;
+}
+
 #onboarding-one .container,
 #onboarding-two .container,
 #onboarding-three .container {
