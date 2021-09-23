@@ -245,6 +245,45 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+#create-useraccount .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#create-useraccount .signup-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#create-useraccount .account-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#create-useraccount .account-text p {
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+#create-useraccount ::placeholder {
+  color: #d3d3d3;
+}
+
+#create-useraccount h3 {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+#create-useraccount ::placeholder {
+  color: #d3d3d3;
+}
+
 /* Login as a freelancer */
 #login-freelancer {
   padding: 56px;
@@ -264,8 +303,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  align-items: center;
 }
 
 /* MAIN PAGE STYLING */
@@ -556,4 +593,29 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#receipt .congratulations {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+}
+
+#receipt .you-have {
+  padding-top: 5%;
+}
+
+#receipt .freelancer-name {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+}
+
+#receipt .receipt-title {
+  margin-top: -15%;
+}
+#receipt .receipt-rating {
+  color: #f09279;
+  font-size: 18px;
+  font-family: "poppins";
+  font-style: italic;
 }

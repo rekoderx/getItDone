@@ -149,7 +149,11 @@
 
     <!-----Create a user acoount--->
     <section id="create-useraccount">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
       <h3 class="heading-login">Create a user account</h3>
+      </div>
+
       <form>
         <div class="label-input-div">
           <label class="label">Username</label>
@@ -172,13 +176,20 @@
           <input class="input" type="text" name="passwordagain" placeholder="Your password again">
         </div>
       </form>
-      <p>Already have an account? <a href="" class="singin-link">Sing in</a></p>
+      <div class="account-text">
+        <p class="account-text">Already have an account?</p>
+        <a href="#" class="signup-link">Sing in</a>
+      </div>
       <button type="button" class="btn">Create an account</button>
     </section>
 
     <!----Login as a freelancer-->
-    <section id="login-freelancer">
-      <h3 class="heading-login">Log in as a freelancer</h3>
+    <section id="login-customer">
+        <div class="left-arrow login-title">
+         <i class="fas fa-chevron-left"></i>
+        <h3 class="heading-login">Log in as a freelancer</h3>
+      </div>
+
       <form>
         <div class="label-input-div">
           <label class="label">Username</label>
@@ -189,13 +200,19 @@
           <input class="input" type="text" name="username" placeholder="Your Email"></input>
         </div>
         <div class="label-input-div">
+          <div class="password">
           <label class="label">Password</label>
+          <a class="forgot" href="">Forgot password?</a>
+          </div>
           <input class="input" type="text" name="username" placeholder="Password"></input>
         </div>
-        <a href="">Forgot password?</a>
+        
       </form>
       <button type="button" class="btn">Login</button>
-      <p>Don't have an account? <a href="" class="signup-link">Sign up</a> </p>
+        <div class="account-text">
+      <p class="account-text">Don't have an account?</p>
+        <a href="#" class="signup-link">Sign up</a>
+        </div>
       <p class="or2-options">or</p>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
@@ -203,8 +220,11 @@
     </section>
 
     <!-----Create a freelancer account --->
-    <section id="create-freelanceraccount">
-        <h3 class="heading-login">Create a freelancer account</h3>
+   <section id="create-useraccount">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+      <h3 class="heading-login">Create a freelancer account</h3>
+      </div>
         <form>
           <div class="label-input-div">
           <label class="label">Username</label>
@@ -227,7 +247,10 @@
           <input class="input" type="text" name="passwordagain" placeholder="Your password again">
           </div>
         </form>
-        <p>Already have an account? <a href="" class="singin-link">Sing in</a></p>
+        <div class="account-text">
+        <p class="account-text">Already have an account?</p>
+        <a href="#" class="signup-link">Sing in</a>
+      </div>
         <button type="button" class="btn">Create an account</button>
     </section>
 
@@ -468,23 +491,22 @@
  <!-- Receipt page -->
     <section id="receipt">
       <div class="congratulations-div">
-      <h3 class="heading-login congratulations">Congratulations,</h3>
-      <p>You have succesfully<br>
+      <h3 class="congratulations">Congratulations,</h3>
+      <p class="you-have">You have succesfully<br>
       booked your freelancer</p>
       </div>
-      <h3 class="heading-login freelancer-name">John Doe</h3>
-      <p>Gardening, Aarhus C</p>
-      <p>+45 12 34 45 78</p>
+      <h3 class="freelancer-name">John Doe</h3>
+      <p class="receipt-title">Gardening, Aarhus C<br>
+      +45 12 34 45 78</p>
       <p>On September 23, 2021<br>
         In Aarhus C<br>
         From 14:00pm to 16:00pm,<br>
         For 200KR.
       </p>
-      <p>Please remember to give
+      <p class="receipt-rating">Please remember to give
     The freelancer a rating after
     The task is completed!</p>
     <button type="button" class="btn">Back to main page</button>
-
     </section>
 
     <!-- FREELANCERS PAGE -->
