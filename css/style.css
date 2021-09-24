@@ -731,6 +731,10 @@ body {
   justify-content: space-between;
 }
 
+#search .input {
+  margin-top: -400px;
+}
+
 #search .login-title {
   display: flex;
   justify-content: flex-start;
@@ -742,6 +746,7 @@ body {
   font-family: "Poppins";
   font-size: 24px;
   align-items: center;
+  margin-left: 100px;
 }
 
 /* favorites page */
@@ -766,6 +771,55 @@ body {
   font-family: "Poppins";
   font-size: 24px;
   align-items: center;
+  margin-left: 100px;
+}
+
+#favorites .freelancers-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#favorites .freelancers-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  /* width: 352px; */
+}
+
+#favorites .freelancers-card .request-image img {
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 32px;
+}
+
+#favorites .freelancers-card .request-text .price {
+  font-size: 14px;
+  color: var(--scondary-color);
+}
+
+#favorites .freelancers-card .small-btn {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#favorites .freelancers-cards-container {
+  height: 450px;
 }
 
 /* Profile page */
