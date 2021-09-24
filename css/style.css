@@ -469,7 +469,8 @@ body {
 #categories .main-menu,
 #search .main-menu,
 #favorites .main-menu,
-#profile-page .main-menu {
+#profile-page .main-menu,
+#freelancers .main-menu {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -481,7 +482,8 @@ body {
 #categories .main-menu .menu,
 #search .main-menu .menu,
 #favorites .main-menu .menu,
-#profile-page .main-menu .menu {
+#profile-page .main-menu .menu,
+#freelancers .main-menu .menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -491,7 +493,8 @@ body {
 #categories .main-menu .menu .fas,
 #search .main-menu .menu .fas,
 #favorites .main-menu .menu .fas,
-#profile-page .main-menu .menu .fas {
+#profile-page .main-menu .menu .fas,
+#freelancers .main-menu .menu .fas {
   font-size: 32px;
   color: var(--scondary-color);
 }
@@ -500,7 +503,8 @@ body {
 #categories .main-menu .menu .fa-home,
 #search .main-menu .menu .fa-home,
 #favorites .main-menu .menu .fa-home,
-#profile-page .main-menu .menu .fa-home {
+#profile-page .main-menu .menu .fa-home,
+#freelancers .main-menu .menu .fa-home {
   color: var(--main-color);
 }
 
@@ -574,6 +578,7 @@ body {
 /* FREELANCERS LIST STYLING */
 #freelancers {
   background-color: var(--main-bg-color);
+  height: 100vh;
 }
 #freelancers .freelancers-container {
   width: 85%;
@@ -624,6 +629,10 @@ body {
   font-size: 16px;
 }
 
+#freelancers .freelancers-cards-container {
+  height: 450px;
+}
+
 #freelancers .freelancers-container .freelancers-card {
   background-color: #fff;
   border-radius: 10px;
@@ -656,6 +665,11 @@ body {
   border-radius: 10px;
   background-color: var(--main-color);
   color: #fff;
+}
+
+#freelancers .main-menu {
+  align-self: center;
+  width: 100%;
 }
 
 /* DETAILED PAGE */
@@ -880,13 +894,12 @@ body {
 
 /* favorites page */
 #favorites {
-  padding: 56px;
   height: 100vh;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #favorites .login-title {
@@ -948,7 +961,11 @@ body {
 }
 
 #favorites .freelancers-cards-container {
-  height: 450px;
+  height: 350px;
+}
+
+#favorites .main-menu {
+  align-self: center;
 }
 
 /* Profile page */
