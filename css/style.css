@@ -559,6 +559,93 @@ body {
   grid-area: area10;
 }
 
+/* FREELANCERS LIST STYLING */
+#freelancers {
+  background-color: var(--main-bg-color);
+}
+#freelancers .freelancers-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#freelancers .freelancers-container .arrow-title {
+  width: 80%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .arrow-title h3 {
+  font-size: 32px;
+  margin-left: 80px;
+  font-weight: 500;
+}
+
+#freelancers .freelancers-container .sort {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+
+#freelancers .freelancers-container .sort h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .sort button {
+  width: 144px;
+  height: 50px;
+  background-color: #fff;
+  color: var(--scondary-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+#freelancers .freelancers-container .freelancers-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 352px;
+}
+
+#freelancers .freelancers-container .freelancers-card .request-image img {
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 32px;
+}
+
+#freelancers .freelancers-container .freelancers-card .request-text .price {
+  font-size: 14px;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .freelancers-card .small-btn {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
 /* Request form */
 #request-form {
   padding: 56px;
