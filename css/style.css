@@ -466,7 +466,10 @@ body {
 }
 
 #home .main-menu,
-#categories .main-menu {
+#categories .main-menu,
+#search .main-menu,
+#favorites .main-menu,
+#profile-page .main-menu {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -475,20 +478,29 @@ body {
 }
 
 #home .main-menu .menu,
-#categories .main-menu .menu {
+#categories .main-menu .menu,
+#search .main-menu .menu,
+#favorites .main-menu .menu,
+#profile-page .main-menu .menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #home .main-menu .menu .fas,
-#categories .main-menu .menu .fas {
+#categories .main-menu .menu .fas,
+#search .main-menu .menu .fas,
+#favorites .main-menu .menu .fas,
+#profile-page .main-menu .menu .fas {
   font-size: 32px;
   color: var(--scondary-color);
 }
 
 #home .main-menu .menu .fa-home,
-#categories .main-menu .menu .fa-home {
+#categories .main-menu .menu .fa-home,
+#search .main-menu .menu .fa-home,
+#favorites .main-menu .menu .fa-home,
+#profile-page .main-menu .menu .fa-home {
   color: var(--main-color);
 }
 
@@ -858,5 +870,83 @@ body {
   color: #3c819d;
   font-family: "Poppins";
   font-size: 24px;
+  align-items: center;
+}
+
+/* favorites page */
+#favorites {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#favorites .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#favorites .heading-login {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+  align-items: center;
+}
+
+/* Profile page */
+#profile-page {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#profile-page .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#profile-page .heading-login {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+  align-items: center;
+}
+
+#profile-page .upload-image {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  color: #3c819d;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  box-shadow: 1px 1px;
+  font-family: "Poppins";
+  font-size: 11px;
+}
+
+#profile-page .edit-profile {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  color: #3c819d;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  box-shadow: 1px 1px;
+  font-family: "Poppins";
+  font-size: 11px;
+}
+
+#profile-page .upload-edit-buttom-div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
