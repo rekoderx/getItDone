@@ -646,6 +646,135 @@ body {
   color: #fff;
 }
 
+/* DETAILED PAGE */
+#freelancer-details {
+  background-color: var(--main-bg-color);
+}
+#freelancer-details .details-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#freelancer-details .details-container .arrow-title {
+  width: 80%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#freelancer-details .details-container .arrow-title h3 {
+  font-size: 24px;
+  margin-left: 100px;
+  font-weight: 700;
+}
+
+#freelancer-details .details-container .freelancer-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}
+
+#freelancer-details .verified {
+  background-color: var(--scondary-color);
+  color: #fff;
+  font-style: italic;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: center;
+}
+
+#freelancer-details .details-container .details-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+#freelancer-details .details-container .details-buttons button {
+  width: 144px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+#freelancer-details .details-container .details-buttons .add {
+  background-color: #fff;
+  color: var(--scondary-color);
+}
+
+#freelancer-details .details-container .details-buttons .request {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#freelancer-details .details-container .job-description h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#freelancer-details .details-container .job-description p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .services h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+#freelancer-details .details-container .services p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .testimonials h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 32px 0 20px;
+}
+
+#freelancer-details .details-container .testimonials p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .services .mow-lawning,
+#freelancer-details .details-container .services .hedge-trimming,
+#freelancer-details .details-container .services .cutting-edges {
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#freelancer-details .details-container .show-more {
+  display: flex;
+  margin: 24px 0 0 auto;
+}
+
+#freelancer-details .details-container .show-more a {
+  font-size: 14px;
+  color: var(--font-color);
+  display: inline-block;
+}
+
+#freelancer-details .details-container .request-button {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
 /* Request form */
 #request-form {
   padding: 56px;
