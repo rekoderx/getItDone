@@ -894,13 +894,12 @@ body {
 
 /* favorites page */
 #favorites {
-  padding: 56px;
   height: 100vh;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #favorites .login-title {
@@ -962,7 +961,11 @@ body {
 }
 
 #favorites .freelancers-cards-container {
-  height: 450px;
+  height: 350px;
+}
+
+#favorites .main-menu {
+  align-self: center;
 }
 
 /* Profile page */
