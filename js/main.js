@@ -1,3 +1,5 @@
+// CREATING DEFAULT LINK VARIABLES
+// AND HEADERS
 const _baseUrl = "https://api.jsonbin.io/v3/b/614c0cda4a82881d6c53e8e2";
 const _headers = {
   "X-Master-Key":
