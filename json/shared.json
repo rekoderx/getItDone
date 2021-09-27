@@ -76,7 +76,7 @@
     "name": "Mohamed Mogensen",
     "profession": "gardener",
     "category": {
-      "title": "cleaning",
+      "title": "gardening",
       "image": "./images/Gardening.png"
     },
     "city": "Aarhus",
@@ -91,7 +91,7 @@
     "name": "Megan Hamilton",
     "profession": "gardener",
     "category": {
-      "title": "cleaning",
+      "title": "gardening",
       "image": "./images/Gardening.png"
     },
     "city": "Aarhus",
@@ -105,7 +105,7 @@
     "name": "Elias Bruun",
     "profession": "gardener",
     "category": {
-      "title": "cleaning",
+      "title": "gardening",
       "image": "./images/Gardening.png"
     },
     "city": "Silkeborg",
@@ -120,7 +120,7 @@
     "name": "Amanda Petersen",
     "profession": "gardener",
     "category": {
-      "title": "cleaning",
+      "title": "gardening",
       "image": "./images/Gardening.png"
     },
     "city": "Silkeborg",
@@ -134,7 +134,7 @@
     "name": "Jaroslav Moravec",
     "profession": "gardener",
     "category": {
-      "title": "cleaning",
+      "title": "gardening",
       "image": "./images/Gardening.png"
     },
     "city": "Lystrup",
@@ -149,7 +149,7 @@
     "name": "Sandra Koch",
     "profession": "babysitter",
     "category": {
-      "title": "cleaning",
+      "title": "babysitting",
       "image": "./images/Babysitting.png"
     },
     "city": "Lystrup",
@@ -164,7 +164,7 @@
     "name": "Laura Müller",
     "profession": "babysitter",
     "category": {
-      "title": "cleaning",
+      "title": "babysitting",
       "image": "./images/Babysitting.png"
     },
     "city": "Aarhus",
@@ -179,7 +179,7 @@
     "name": "Gloria Giovanni",
     "profession": "babysitter",
     "category": {
-      "title": "cleaning",
+      "title": "babysitting",
       "image": "./images/Babysitting.png"
     },
     "city": "Aarhus",
@@ -194,7 +194,7 @@
     "name": "Iwan Michalski",
     "profession": "babysitter",
     "category": {
-      "title": "cleaning",
+      "title": "babysitting",
       "image": "./images/Babysitting.png"
     },
     "city": "Brabrand",
@@ -209,7 +209,7 @@
     "name": "Louise Andresen",
     "profession": "babysitter",
     "category": {
-      "title": "cleaning",
+      "title": "babysitting",
       "image": "./images/Babysitting.png"
     },
     "city": "Aarhus",
@@ -224,7 +224,7 @@
     "name": "Mads Sørensen",
     "profession": "mover",
     "category": {
-      "title": "cleaning",
+      "title": "moving",
       "image": "./images/Moving.png"
     },
     "city": "Aarhus",
@@ -239,7 +239,7 @@
     "name": "Oliver Christiansen",
     "profession": "mover",
     "category": {
-      "title": "cleaning",
+      "title": "moving",
       "image": "./images/Moving.png"
     },
     "city": "Aarhus",
@@ -254,7 +254,7 @@
     "name": "Bernd Mauer",
     "profession": "mover",
     "category": {
-      "title": "cleaning",
+      "title": "moving",
       "image": "./images/Moving.png"
     },
     "city": "Brabrand",
@@ -269,7 +269,7 @@
     "name": "Christina Henriksen",
     "profession": "mover",
     "category": {
-      "title": "cleaning",
+      "title": "moving",
       "image": "./images/Moving.png"
     },
     "city": "Tilst",
@@ -284,7 +284,7 @@
     "name": "Jaromir Sawicki",
     "profession": "mover",
     "category": {
-      "title": "cleaning",
+      "title": "moving",
       "image": "./images/Moving.png"
     },
     "city": "Risskov",
@@ -299,7 +299,7 @@
     "name": "Felicjan Wieczorek",
     "profession": "petcarer",
     "category": {
-      "title": "cleaning",
+      "title": "pets",
       "image": "./images/Pets.png"
     },
     "city": "Risskov",
@@ -314,7 +314,7 @@
     "name": "Simon Christiansen",
     "profession": "petcarer",
     "category": {
-      "title": "cleaning",
+      "title": "pets",
       "image": "./images/Pets.png"
     },
     "city": "Aarhus",
@@ -329,7 +329,7 @@
     "name": "Gabriela Olszewska",
     "profession": "petcarer",
     "category": {
-      "title": "cleaning",
+      "title": "pets",
       "image": "./images/Pets.png"
     },
     "city": "Aarhus",
@@ -344,7 +344,7 @@
     "name": "Anne-Lise Johansen",
     "profession": "petcarer",
     "category": {
-      "title": "cleaning",
+      "title": "pets",
       "image": "./images/Pets.png"
     },
     "city": "Viby",
@@ -359,7 +359,7 @@
     "name": "Camilla Johnsen",
     "profession": "petcarer",
     "category": {
-      "title": "cleaning",
+      "title": "pets",
       "image": "./images/Pets.png"
     },
     "city": "Aarhus",
@@ -374,7 +374,7 @@
     "name": "Alexander Svendsen",
     "profession": "painter",
     "category": {
-      "title": "cleaning",
+      "title": "painting",
       "image": "./images/Painting.png"
     },
     "city": "Aarhus",
@@ -389,7 +389,7 @@
     "name": "Mohamed Koch",
     "profession": "painter",
     "category": {
-      "title": "cleaning",
+      "title": "painting",
       "image": "./images/Painting.png"
     },
     "city": "Aarhus",
@@ -404,7 +404,7 @@
     "name": "Josef Skokan",
     "profession": "painter",
     "category": {
-      "title": "cleaning",
+      "title": "painting",
       "image": "./images/Painting.png"
     },
     "city": "Lystrup",
@@ -419,7 +419,7 @@
     "name": "Maximilian Lemann",
     "profession": "painter",
     "category": {
-      "title": "cleaning",
+      "title": "painting",
       "image": "./images/Painting.png"
     },
     "city": "Brabrand",
@@ -434,7 +434,7 @@
     "name": "Nikolaj Nielsen",
     "profession": "painter",
     "category": {
-      "title": "cleaning",
+      "title": "painting",
       "image": "./images/Painting.png"
     },
     "city": "Aarhus",
