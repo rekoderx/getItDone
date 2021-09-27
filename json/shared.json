@@ -1,0 +1,242 @@
+[
+  {
+    "id": "001",
+    "name": "Celina Kristoffersen",
+    "category": "cleaning",
+    "city": "Silkeborg",
+    "price": 120,
+    "rating": 4.8
+  },
+  {
+    "id": "002",
+    "name": "Emilie Bertelsen",
+    "category": "cleaning",
+    "city": "Aarhus",
+    "price": 135,
+    "rating": 5
+  },
+  {
+    "id": "003",
+    "name": "Silas Karlsen",
+    "category": "cleaning",
+    "city": "Aarhus",
+    "price": 130,
+    "rating": 4.9
+  },
+  {
+    "id": "004",
+    "name": "Silje Lauritsen",
+    "category": "cleaning",
+    "city": "Brabrand",
+    "price": 110,
+    "rating": 4.5
+  },
+  {
+    "id": "005",
+    "name": "Malthe Kristensen",
+    "category": "cleaning",
+    "city": "Aarhus",
+    "price": 130,
+    "rating": 4.8
+  },
+  {
+    "id": "006",
+    "name": "Mohamed Mogensen",
+    "category": "gardening",
+    "city": "Aarhus",
+    "price": 130,
+    "rating": 4.9
+  },
+  {
+    "id": "007",
+    "name": "Megan Hamilton",
+    "category": "gardening",
+    "city": "Aarhus",
+    "price": 140,
+    "rating": 5
+  },
+  {
+    "id": "008",
+    "name": "Elias Bruun",
+    "category": "gardening",
+    "city": "Silkeborg",
+    "price": 130,
+    "rating": 4.8
+  },
+  {
+    "id": "009",
+    "name": "Amanda Petersen",
+    "category": "gardening",
+    "city": "Silkeborg",
+    "price": 120,
+    "rating": 4.7
+  },
+  {
+    "id": "010",
+    "name": "Jaroslav Moravec",
+    "category": "gardening",
+    "city": "Lystrup",
+    "price": 150,
+    "rating": 4.9
+  },
+  {
+    "id": "011",
+    "name": "Sandra Koch",
+    "category": "babysitting",
+    "city": "Lystrup",
+    "price": 150,
+    "rating": 4.9
+  },
+  {
+    "id": "012",
+    "name": "Laura Müller",
+    "category": "babysitting",
+    "city": "Aarhus",
+    "price": 135,
+    "rating": 4.8
+  },
+  {
+    "id": "013",
+    "name": "Gloria Giovanni",
+    "category": "babysitting",
+    "city": "Aarhus",
+    "price": 125,
+    "rating": 4.8
+  },
+  {
+    "id": "014",
+    "name": "Iwan Michalski",
+    "category": "babysitting",
+    "city": "Brabrand",
+    "price": 120,
+    "rating": 4.7
+  },
+  {
+    "id": "015",
+    "name": "Louise Andresen",
+    "category": "babysitting",
+    "city": "Aarhus",
+    "price": 130,
+    "rating": 5
+  },
+  {
+    "id": "016",
+    "name": "Mads Sørensen",
+    "category": "moving",
+    "city": "Aarhus",
+    "price": 160,
+    "rating": 5
+  },
+  {
+    "id": "017",
+    "name": "Oliver Christiansen",
+    "category": "moving",
+    "city": "Aarhus",
+    "price": 155,
+    "rating": 5
+  },
+  {
+    "id": "018",
+    "name": "Bernd Mauer",
+    "category": "moving",
+    "city": "Brabrand",
+    "price": 145,
+    "rating": 4.9
+  },
+  {
+    "id": "019",
+    "name": "Christina Henriksen",
+    "category": "moving",
+    "city": "Tilst",
+    "price": 155,
+    "rating": 4.9
+  },
+  {
+    "id": "020",
+    "name": "Jaromir Sawicki",
+    "category": "moving",
+    "city": "Risskov",
+    "price": 160,
+    "rating": 5
+  },
+  {
+    "id": "021",
+    "name": "Felicjan Wieczorek",
+    "category": "pets",
+    "city": "Risskov",
+    "price": 120,
+    "rating": 5
+  },
+  {
+    "id": "022",
+    "name": "Simon Christiansen",
+    "category": "pets",
+    "city": "Aarhus",
+    "price": 115,
+    "rating": 5
+  },
+  {
+    "id": "023",
+    "name": "Gabriela Olszewska",
+    "category": "pets",
+    "city": "Aarhus",
+    "price": 120,
+    "rating": 4.9
+  },
+  {
+    "id": "024",
+    "name": "Anne-Lise Johansen",
+    "category": "pets",
+    "city": "Viby",
+    "price": 115,
+    "rating": 5
+  },
+  {
+    "id": "025",
+    "name": "Camilla Johnsen",
+    "category": "pets",
+    "city": "Aarhus",
+    "price": 115,
+    "rating": 5
+  },
+  {
+    "id": "026",
+    "name": "Alexander Svendsen",
+    "category": "painting",
+    "city": "Aarhus",
+    "price": 155,
+    "rating": 5
+  },
+  {
+    "id": "027",
+    "name": "Mohamed Koch",
+    "category": "painting",
+    "city": "Aarhus",
+    "price": 165,
+    "rating": 5
+  },
+  {
+    "id": "028",
+    "name": "Josef Skokan",
+    "category": "painting",
+    "city": "Lystrup",
+    "price": 145,
+    "rating": 4.5
+  },
+  {
+    "id": "029",
+    "name": "Maximilian Lemann",
+    "category": "painting",
+    "city": "Brabrand",
+    "price": 145,
+    "rating": 4.7
+  },
+  {
+    "id": "030",
+    "name": "Nikolaj Nielsen",
+    "category": "painting",
+    "city": "Aarhus",
+    "price": 150,
+    "rating": 4.8
+  }
+]
