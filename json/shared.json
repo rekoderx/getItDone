@@ -2,271 +2,446 @@
   {
     "id": "001",
     "name": "Celina Kristoffersen",
-    "category": "cleaning",
+    "profession": "cleaner",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Cleaning.png"
+    },
     "city": "Silkeborg",
     "price": 120,
     "rating": 4.8,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "002",
     "name": "Emilie Bertelsen",
-    "category": "cleaning",
+    "profession": "cleaner",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Cleaning.png"
+    },
     "city": "Aarhus",
     "price": 135,
     "rating": 5,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "003",
     "name": "Silas Karlsen",
-    "category": "cleaning",
+    "profession": "cleaner",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Cleaning.png"
+    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.9,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "004",
     "name": "Silje Lauritsen",
-    "category": "cleaning",
+    "profession": "cleaner",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Cleaning.png"
+    },
     "city": "Brabrand",
     "price": 110,
     "rating": 4.5,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "005",
     "name": "Malthe Kristensen",
-    "category": "cleaning",
+    "profession": "cleaner",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Cleaning.png"
+    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.8,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "006",
     "name": "Mohamed Mogensen",
-    "category": "gardening",
+    "profession": "gardener",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Gardening.png"
+    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.9,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "007",
     "name": "Megan Hamilton",
-    "category": "gardening",
+    "profession": "gardener",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Gardening.png"
+    },
     "city": "Aarhus",
     "price": 140,
     "rating": 5,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "008",
     "name": "Elias Bruun",
-    "category": "gardening",
+    "profession": "gardener",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Gardening.png"
+    },
     "city": "Silkeborg",
     "price": 130,
     "rating": 4.8,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "009",
     "name": "Amanda Petersen",
-    "category": "gardening",
+    "profession": "gardener",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Gardening.png"
+    },
     "city": "Silkeborg",
     "price": 120,
     "rating": 4.7,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "010",
     "name": "Jaroslav Moravec",
-    "category": "gardening",
+    "profession": "gardener",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Gardening.png"
+    },
     "city": "Lystrup",
     "price": 150,
     "rating": 4.9,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "011",
     "name": "Sandra Koch",
-    "category": "babysitting",
+    "profession": "babysitter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Babysitting.png"
+    },
     "city": "Lystrup",
     "price": 150,
     "rating": 4.9,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "012",
     "name": "Laura Müller",
-    "category": "babysitting",
+    "profession": "babysitter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Babysitting.png"
+    },
     "city": "Aarhus",
     "price": 135,
     "rating": 4.8,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "013",
     "name": "Gloria Giovanni",
-    "category": "babysitting",
+    "profession": "babysitter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Babysitting.png"
+    },
     "city": "Aarhus",
     "price": 125,
     "rating": 4.8,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "014",
     "name": "Iwan Michalski",
-    "category": "babysitting",
+    "profession": "babysitter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Babysitting.png"
+    },
     "city": "Brabrand",
     "price": 120,
     "rating": 4.7,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "015",
     "name": "Louise Andresen",
-    "category": "babysitting",
+    "profession": "babysitter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Babysitting.png"
+    },
     "city": "Aarhus",
     "price": 130,
     "rating": 5,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "016",
     "name": "Mads Sørensen",
-    "category": "moving",
+    "profession": "mover",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Moving.png"
+    },
     "city": "Aarhus",
     "price": 160,
     "rating": 5,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "017",
     "name": "Oliver Christiansen",
-    "category": "moving",
+    "profession": "mover",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Moving.png"
+    },
     "city": "Aarhus",
     "price": 155,
     "rating": 5,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "018",
     "name": "Bernd Mauer",
-    "category": "moving",
+    "profession": "mover",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Moving.png"
+    },
     "city": "Brabrand",
     "price": 145,
     "rating": 4.9,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "019",
     "name": "Christina Henriksen",
-    "category": "moving",
+    "profession": "mover",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Moving.png"
+    },
     "city": "Tilst",
     "price": 155,
     "rating": 4.9,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "020",
     "name": "Jaromir Sawicki",
-    "category": "moving",
+    "profession": "mover",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Moving.png"
+    },
     "city": "Risskov",
     "price": 160,
     "rating": 5,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "021",
     "name": "Felicjan Wieczorek",
-    "category": "pets",
+    "profession": "petcarer",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Pets.png"
+    },
     "city": "Risskov",
     "price": 120,
     "rating": 5,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "022",
     "name": "Simon Christiansen",
-    "category": "pets",
+    "profession": "petcarer",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Pets.png"
+    },
     "city": "Aarhus",
     "price": 115,
     "rating": 5,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "023",
     "name": "Gabriela Olszewska",
-    "category": "pets",
+    "profession": "petcarer",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Pets.png"
+    },
     "city": "Aarhus",
     "price": 120,
     "rating": 4.9,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "024",
     "name": "Anne-Lise Johansen",
-    "category": "pets",
+    "profession": "petcarer",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Pets.png"
+    },
     "city": "Viby",
     "price": 115,
     "rating": 5,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "025",
     "name": "Camilla Johnsen",
-    "category": "pets",
+    "profession": "petcarer",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Pets.png"
+    },
     "city": "Aarhus",
     "price": 115,
     "rating": 5,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "026",
     "name": "Alexander Svendsen",
-    "category": "painting",
+    "profession": "painter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Painting.png"
+    },
     "city": "Aarhus",
     "price": 155,
     "rating": 5,
-    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/3E3ndnohgJ3-5gU6g_OzPFTIzQ3YuIgbatst9XE_0fQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODc4Mjc0LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "027",
     "name": "Mohamed Koch",
-    "category": "painting",
+    "profession": "painter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Painting.png"
+    },
     "city": "Aarhus",
     "price": 165,
     "rating": 5,
-    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/Rrc43gMyXWJQ5iUvm8Z9eJP13AtXL3v7JjQKlGH0VIo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTAyOTM2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "028",
     "name": "Josef Skokan",
-    "category": "painting",
+    "profession": "painter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Painting.png"
+    },
     "city": "Lystrup",
     "price": 145,
     "rating": 4.5,
-    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/pHiAmRq3nd7sazDImvb0xAtHlSeTEnUtcLXzHEhIeag/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODg5MzM4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "029",
     "name": "Maximilian Lemann",
-    "category": "painting",
+    "profession": "painter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Painting.png"
+    },
     "city": "Brabrand",
     "price": 145,
     "rating": 4.7,
-    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/iR6Tog5PwP96kdBshySOIvSzBCA9AFESuDs5jQaby1c/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTIxNTc4LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   },
   {
     "id": "030",
     "name": "Nikolaj Nielsen",
-    "category": "painting",
+    "profession": "painter",
+    "category": {
+      "title": "cleaning",
+      "image": "./images/Painting.png"
+    },
     "city": "Aarhus",
     "price": 150,
     "rating": 4.8,
-    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg"
+
+    "img": "https://images.generated.photos/J56AuFwpTYJCufXWz8fM38xkjvyCmRAkyvKoHX_7rVo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTQyODI2LmpwZw.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
   }
 ]
