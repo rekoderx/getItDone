@@ -74,3 +74,18 @@ function setActiveTab(pathname) {
     }
   }
 }
+
+// MAKING SEEALL BUTTON WORK - GO TO CATEGORIES
+function goToCategories() {
+  const seeall = document.querySelector(".seeall");
+  seeall.setAttribute("href", "#/categories");
+  navigateTo("#/categories");
+  window.scrollTo(0, 0);
+}
+
+// GO BACK ARROW FUNCTION
+function arrowGoBack() {
+  const backArrow = document.querySelector(".back-home");
+  backArrow.setAttribute("href", "#/home");
+  navigateTo("#/home");
+}
