@@ -7,6 +7,7 @@ const routes = {
   "#/search": "search",
   "#/favorites": "favorites",
   "#/profile-page": "profile-page",
+  "#/categories": "categories",
 };
 
 /**
