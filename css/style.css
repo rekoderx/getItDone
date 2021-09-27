@@ -892,6 +892,10 @@ body {
   margin-left: 100px;
 }
 
+#search .main-menu {
+  align-self: center;
+}
+
 /* favorites page */
 #favorites {
   height: 100vh;
