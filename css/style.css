@@ -14,6 +14,11 @@
 }
 
 /* GENERAL RULES */
+.page {
+  display: none;
+  /* min-height: calc(100vh - 56px); */
+}
+
 body {
   font-family: Poppins, sans-serif;
   color: var(--font-color);
@@ -37,6 +42,50 @@ body {
 /* section {
   height: 100vh;
 } */
+
+/* MENU STYLING */
+.main-menu {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.main-menu .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu a {
+  color: var(--scondary-color);
+  cursor: pointer;
+}
+
+.main-menu .menu .fas {
+  font-size: 28px;
+}
+
+/* .main-menu .menu .fa-home {
+  color: var(--main-color);
+} */
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.main-menu a.active {
+  background-color: #fff;
+  color: var(--main-color);
+}
 
 /* WELCOME SCREE STYLING */
 #welcome-screen {
@@ -307,7 +356,7 @@ body {
 
 /* MAIN PAGE STYLING */
 #home {
-  height: auto;
+  /* height: auto; */
   background-color: var(--main-bg-color);
 }
 
@@ -341,7 +390,7 @@ body {
   font-weight: 500;
   text-align: center;
   color: var(--scondary-color);
-  padding: 24px 0 8px;
+  padding: 12px 0 8px;
 }
 
 #home .title-text p {
@@ -350,8 +399,16 @@ body {
   font-weight: 200;
 }
 
+#home .container .cards-container .card-image img {
+  height: 150px;
+}
+
+#home .container {
+  height: calc(100vh - 100px);
+}
+
 #home .container .cards-container {
-  margin: 32px 0;
+  margin: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -465,7 +522,7 @@ body {
   font-weight: 400;
 }
 
-#home .main-menu,
+/* #home .main-menu,
 #categories .main-menu,
 #search .main-menu,
 #favorites .main-menu,
@@ -506,15 +563,15 @@ body {
 #profile-page .main-menu .menu .fa-home,
 #freelancers .main-menu .menu .fa-home {
   color: var(--main-color);
-}
+} */
 
 /* CATEGORIES STYLING */
 #categories {
   background-color: #fbfaff;
 }
 
-#categories .arrow-title {
-  width: 80%;
+#categories a .arrow-title {
+  width: 100%;
   margin-top: 32px;
   display: flex;
   justify-content: flex-start;
@@ -522,9 +579,13 @@ body {
   color: var(--scondary-color);
 }
 
+#categories a {
+  text-decoration: none;
+}
+
 #categories .arrow-title h3 {
   font-size: 24px;
-  margin-left: 110px;
+  margin-left: 30px;
 }
 
 #categories .arrow-title .fas {
@@ -573,6 +634,10 @@ body {
 }
 .area10 {
   grid-area: area10;
+}
+
+#categories .container .cards-container img {
+  height: 150px;
 }
 
 /* FREELANCERS LIST STYLING */

@@ -21,14 +21,37 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+  <!-- onhashchange="pageChange()" -->
   <body>
+    <nav class="main-menu">
+      <a href="#/home" class="nav-link">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+      </a>
+      <a href="#/search" class="nav-link">
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+      </a>
+      <a href="#/favorites" class="nav-link">
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+      </a>
+      <a href="#/profile-page" class="nav-link">
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </a>
+    </nav>
     <!-- WELCOMING SCREEN -->
-    <section id="welcome-screen">
+    <!-- <section id="welcome-screen" class="page">
       <h2>getItDone</h2>
-    </section>
-    
+    </section> -->
+
     <!-- FIRST ONBOARDING -->
-    <section id="onboarding-one">
+    <!-- <section id="onboarding-one">
       <div class="container">
         <div class="onboardng-one-image">
           <img src="./images/onboarding1.svg" alt="first onboarding image" />
@@ -52,9 +75,9 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ONBOARDING TWO -->
-    <section id="onboarding-two">
+    <!-- <section id="onboarding-two">
       <div class="container">
         <div class="left-arrow">
           <i class="fas fa-chevron-left"></i>
@@ -78,9 +101,9 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ONBOARDING THREE -->
-    <section id="onboarding-three">
+    <!-- <section id="onboarding-three">
       <div class="container">
         <div class="left-arrow">
           <i class="fas fa-chevron-left"></i>
@@ -100,19 +123,19 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-------Log in form customer or freelancer-------->
-    <section id="logintype">
+    <!-- <section id="logintype">
       <div class="logintype-buttons">
       <h3 class="loginas">Log in as:</h3>
       <button type="button" class="btn">Customer</button>
       <p class="or">or:</p>
       <button type="button" class="btn">Freelancer</button>
       </div>
-    </section>
-<!-------Login as a customer------->
-    <section id="login-customer">
+    </section> -->
+    <!-------Login as a customer------->
+    <!-- <section id="login-customer">
       <div class="left-arrow login-title">
           <i class="fas fa-chevron-left"></i>
           <h3 class="heading-login">Log in as a customer</h3>
@@ -145,10 +168,10 @@
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Gmail</button>
-    </section>
+    </section> -->
 
     <!-----Create a user acoount--->
-    <section id="create-useraccount">
+    <!-- <section id="create-useraccount">
       <div class="left-arrow login-title">
           <i class="fas fa-chevron-left"></i>
       <h3 class="heading-login">Create a user account</h3>
@@ -181,10 +204,10 @@
         <a href="#" class="signup-link">Sing in</a>
       </div>
       <button type="button" class="btn">Create an account</button>
-    </section>
+    </section> -->
 
     <!----Login as a freelancer-->
-    <section id="login-customer">
+    <!-- <section id="login-customer">
         <div class="left-arrow login-title">
          <i class="fas fa-chevron-left"></i>
         <h3 class="heading-login">Log in as a freelancer</h3>
@@ -217,10 +240,10 @@
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
       <button class="login-with-buttons" type="button" class="white-buttons">Log in with Gmail</button>
-    </section>
+    </section> -->
 
     <!-----Create a freelancer account --->
-   <section id="create-useraccount">
+    <!-- <section id="create-useraccount">
       <div class="left-arrow login-title">
           <i class="fas fa-chevron-left"></i>
       <h3 class="heading-login">Create a freelancer account</h3>
@@ -252,124 +275,114 @@
         <a href="#" class="signup-link">Sing in</a>
       </div>
         <button type="button" class="btn">Create an account</button>
-    </section>
+    </section> -->
 
     <!-- MAIN PAGE HTML -->
-    <section id="home">
-        <div class="container">
-            <div class="logo">
-                <h5>getItDone</h5>
-            </div>
-            <div class="title-text">
-                <h2>Services</h2>
-                <p>Please select your<br>area of interest</p>
-            </div>
-            <div class="cards-container">
-                <div class="card area1">
-                    <div class="card-image">
-                        <img src="./images/Cleaning.png" alt="Cleaning Image">
-                    </div>
-                    <h4>Cleaning</h4>
-                    <p>74 freelancers</p>
-                </div>
-                <div class="card area2">
-                    <div class="card-image">
-                        <img src="./images/Gardening.png" alt="Gardening Image">
-                    </div>
-                    <h4>Gardening</h4>
-                    <p>74 freelancers</p>
-                </div>
-                <div class="card area3">
-                    <div class="card-image">
-                        <img src="./images/Moving.png" alt="Moving Image">
-                    </div>
-                    <h4>Moving</h4>
-                    <p>74 freelancers</p>
-                </div>
-                <div class="card area4">
-                    <div class="card-image">
-                        <img src="./images/Babysitting.png" alt="Babysitting Image">
-                    </div>
-                    <h4>Babysitting</h4>
-                    <p>74 freelancers</p>
-                </div>
-                <div class="card area5">
-                    <div class="card-image">
-                        <img src="./images/Pets.png" alt="Pets Image">
-                    </div>
-                    <h4>Pets</h4>
-                    <p>74 freelancers</p>
-                </div>
-                <div class="card area6">
-                    <div class="card-image">
-                        <img src="./images/Painting.png" alt="Painting Image">
-                    </div>
-                    <h4>Painting</h4>
-                    <p>74 freelancers</p>
-                </div>
-            </div>
-            <a class="seeall" href="#">See all <i class="fas fa-chevron-right"></i></a>
-            <div class="line"></div>
-            <h3>Previous Requests</h3>
-            <div class="previous-requests">
-                <div class="previous-requests-card">
-                    <div class="request-image">
-                        <img src="./images/obama.png" alt="Client Image">
-                    </div>
-                    <div class="request-text">
-                        <h4>Barack Obama</h4>
-                        <p class="title">Cleaning</p>
-                        <p class="date">Last used on DD-MM-YYY</p>
-                    </div>
-                    <button class="btn">Request</button>
-                </div>
-                <div class="previous-requests-card">
-                    <div class="request-image">
-                        <img src="./images/obama.png" alt="Client Image">
-                    </div>
-                    <div class="request-text">
-                        <h4>Barack Obama</h4>
-                        <p class="title">Cleaning</p>
-                        <p class="date">Last used on DD-MM-YYY</p>
-                    </div>
-                    <button class="btn">Request</button>
-                </div>
-                <div class="previous-requests-card">
-                    <div class="request-image">
-                        <img src="./images/obama.png" alt="Client Image">
-                    </div>
-                    <div class="request-text">
-                        <h4>Barack Obama</h4>
-                        <p class="title">Cleaning</p>
-                        <p class="date">Last used on DD-MM-YYY</p>
-                    </div>
-                    <button class="btn">Request</button>
-                </div>
-            </div>
-            <div class="main-menu">
-              <div class="home menu">
-                <i class="fas fa-home"></i>
-              </div>
-              <div class="search menu">
-                <i class="fas fa-search"></i>
-              </div>
-              <div class="favourites menu">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="profile menu">
-                <i class="fas fa-user"></i>
-              </div>
-            </div>
+    <section id="home" class="page">
+      <div class="container">
+        <div class="logo">
+          <h5>getItDone</h5>
         </div>
+        <div class="title-text">
+          <h2>Services</h2>
+          <p>Please select your<br />area of interest</p>
+        </div>
+        <div class="cards-container">
+          <div class="card area1">
+            <div class="card-image">
+              <img src="./images/Cleaning.png" alt="Cleaning Image" />
+            </div>
+            <h4>Cleaning</h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area2">
+            <div class="card-image">
+              <img src="./images/Gardening.png" alt="Gardening Image" />
+            </div>
+            <h4>Gardening</h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area3">
+            <div class="card-image">
+              <img src="./images/Moving.png" alt="Moving Image" />
+            </div>
+            <h4>Moving</h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area4">
+            <div class="card-image">
+              <img src="./images/Babysitting.png" alt="Babysitting Image" />
+            </div>
+            <h4>Babysitting</h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area5">
+            <div class="card-image">
+              <img src="./images/Pets.png" alt="Pets Image" />
+            </div>
+            <h4>Pets</h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area6">
+            <div class="card-image">
+              <img src="./images/Painting.png" alt="Painting Image" />
+            </div>
+            <h4>Painting</h4>
+            <p>74 freelancers</p>
+          </div>
+        </div>
+        <a class="seeall" onclick="seeAllCategories()" href=""
+          >See all <i class="fas fa-chevron-right"></i
+        ></a>
+        <div class="line"></div>
+        <h3>Previous Requests</h3>
+        <div class="previous-requests">
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request" onclick="goToRequestForm()">Request</button>
+          </div>
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request" onclick="goToRequestForm()">Request</button>
+          </div>
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request" onclick="goToRequestForm()">Request</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ALL CATEGORIES PAGE -->
-    <section id="categories">
+     <section id="categories" class="page">
         <div class="container">
-            <div class="arrow-title">
+            <a href="" class="back-home" onclick="arrowToHome()">
+              <div class="arrow-title">
               <i class="fas fa-chevron-left"></i>
               <h3>Browse</h3>
             </div>
+            </a>
             <div class="cards-container">
                 <div class="card area1">
                     <div class="card-image">
@@ -442,7 +455,7 @@
                     <p>74 freelancers</p>
                 </div>
             </div>
-            <div class="main-menu">
+            <!-- <div class="main-menu">
               <div class="home menu">
                 <i class="fas fa-home"></i>
               </div>
@@ -455,12 +468,12 @@
               <div class="profile menu">
                 <i class="fas fa-user"></i>
               </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
     <!-- Freelancers in each category -->
-    <section id="freelancers">
+    <!-- <section id="freelancers">
       <div class="freelancers-container">
         <div class="arrow-title">
           <i class="fas fa-chevron-left"></i>
@@ -499,10 +512,10 @@
               </div>
             </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- FREELANCER DETAILED PAGE -->
-    <section id="freelancer-details">
+    <!-- <section id="freelancer-details">
       <div class="details-container">
         <div class="arrow-title">
           <i class="fas fa-chevron-left"></i>
@@ -565,10 +578,10 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
           <button class="btn">Request</button>
         </div>
       </div>
-    </section>
+    </section> -->
 
- <!-- Request form -->
-    <section id="request-form">
+    <!-- Request form -->
+    <section id="request-form" class="page">
       <div class="left-arrow login-title">
           <i class="fas fa-chevron-left"></i>
       </div>
@@ -594,10 +607,9 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
         <button type="button" class="btn request-button">Request</button>
         </div>
       </form>
-
     </section>
- <!-- Receipt page -->
-    <section id="receipt">
+    <!-- Receipt page -->
+    <!-- <section id="receipt">
       <div class="congratulations-div">
       <h3 class="congratulations">Congratulations,</h3>
       <p class="you-have">You have succesfully<br>
@@ -615,115 +627,129 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
     The freelancer a rating after
     The task is completed!</p>
     <button type="button" class="btn">Back to main page</button>
-    </section>
+    </section> -->
 
     <!-- Search page -->
-    <section id="search">
+    <section id="search" class="page">
       <div class="left-arrow login-title">
-          <i class="fas fa-chevron-left"></i>
-      <h3 class="heading-login">Search</h3>
+        <i class="fas fa-chevron-left"></i>
+        <h3 class="heading-login">Search</h3>
       </div>
-      <input class="input" type="text" name="passwordagain" placeholder="Service, provider or city">
+      <input
+        class="input"
+        type="text"
+        name="passwordagain"
+        placeholder="Service, provider or city"
+      />
 
-       <div class="main-menu">
-              <div class="home menu">
-                <i class="fas fa-home"></i>
-              </div>
-              <div class="search menu">
-                <i class="fas fa-search"></i>
-              </div>
-              <div class="favourites menu">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="profile menu">
-                <i class="fas fa-user"></i>
-              </div>
-            </div>
-
+      <!-- <div class="main-menu">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </div> -->
     </section>
 
-      <!-- Favorites page -->
-    <section id="favorites">
+    <!-- Favorites page -->
+    <section id="favorites" class="page">
       <div class="left-arrow login-title">
-          <i class="fas fa-chevron-left"></i>
-      <h3 class="heading-login">Favorites</h3>
+        <i class="fas fa-chevron-left"></i>
+        <h3 class="heading-login">Favorites</h3>
       </div>
 
       <div class="freelancers-cards-container">
-            <div class="freelancers-card">
-              <div class="request-image">
-                  <img src="./images/obama.png" alt="Client Image">
-              </div>
-              <div class="request-text">
-                <img src="./images/5stars.png" alt="rating stars">
-                <h4>Gardner, Silkeborg</h4>
-                <p>Per Rasmusen</p>
-                <p class='price'>Avg. Price 100kr.</p>
-              </div>
-            </div>
+        <div class="freelancers-card">
+          <div class="request-image">
+            <img src="./images/obama.png" alt="Client Image" />
+          </div>
+          <div class="request-text">
+            <img src="./images/5stars.png" alt="rating stars" />
+            <h4>Gardner, Silkeborg</h4>
+            <p>Per Rasmusen</p>
+            <p class="price">Avg. Price 100kr.</p>
+          </div>
         </div>
-      <div class="main-menu">
-              <div class="home menu">
-                <i class="fas fa-home"></i>
-              </div>
-              <div class="search menu">
-                <i class="fas fa-search"></i>
-              </div>
-              <div class="favourites menu">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="profile menu">
-                <i class="fas fa-user"></i>
-              </div>
-            </div>
-
+      </div>
+      <!-- <div class="main-menu">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </div> -->
     </section>
 
-       <!-- Profile page -->
-    <section id="profile-page">
+    <!-- Profile page -->
+    <section id="profile-page" class="page">
       <div class="left-arrow login-title">
-          <i class="fas fa-chevron-left"></i>
-      <h3 class="heading-login">Profile</h3>
+        <i class="fas fa-chevron-left"></i>
+        <h3 class="heading-login">Profile</h3>
       </div>
       <div class="upload-edit-buttom-div">
-      <button type="button" class="upload-image">Upload image</button>
-      <button type="button" class="edit-profile">Edit</button>
+        <button type="button" class="upload-image">Upload image</button>
+        <button type="button" class="edit-profile">Edit</button>
       </div>
       <form>
-           <div class="label-input-div">
+        <div class="label-input-div">
           <label class="label">Full name</label>
-          <input class="input" type="text name="fullname" placeholder="Your full name">
-          </div>
-          <div class="label-input-div">
+          <input class="input" type="text name="fullname" placeholder="Your full
+          name">
+        </div>
+        <div class="label-input-div">
           <label class="label">Email</label>
-          <input class="input" type="text" name="email" placeholder="Your email">
-          </div>
-          <div class="label-input-div">
+          <input
+            class="input"
+            type="text"
+            name="email"
+            placeholder="Your email"
+          />
+        </div>
+        <div class="label-input-div">
           <label class="label">Password</label>
-          <input class="input" type="text" name="password" placeholder="Your password">
-          </div>
-          </form>
-          <button type="button" class="btn">Update</button>
+          <input
+            class="input"
+            type="text"
+            name="password"
+            placeholder="Your password"
+          />
+        </div>
+      </form>
+      <button type="button" class="btn">Update</button>
 
-            <div class="main-menu">
-              <div class="home menu">
-                <i class="fas fa-home"></i>
-              </div>
-              <div class="search menu">
-                <i class="fas fa-search"></i>
-              </div>
-              <div class="favourites menu">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="profile menu">
-                <i class="fas fa-user"></i>
-              </div>
-            </div>
-
+      <!-- <div class="main-menu">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </div> -->
     </section>
 
     <!-- FREELANCERS PAGE -->
-    
+    <script src="./js/router.js"></script>
+    <!-- <script src="./js/router2.js"></script> -->
     <script src="./js/main.js"></script>
   </body>
 </html>
