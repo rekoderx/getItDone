@@ -3,10 +3,6 @@
     "id": "001",
     "name": "Celina Kristoffersen",
     "profession": "cleaner",
-    "category": {
-      "title": "cleaning",
-      "image": "./images/Cleaning.png"
-    },
     "city": "Silkeborg",
     "price": 120,
     "rating": 4.8,
@@ -17,10 +13,6 @@
     "id": "002",
     "name": "Emilie Bertelsen",
     "profession": "cleaner",
-    "category": {
-      "title": "cleaning",
-      "image": "./images/Cleaning.png"
-    },
     "city": "Aarhus",
     "price": 135,
     "rating": 5,
@@ -31,10 +23,6 @@
     "id": "003",
     "name": "Silas Karlsen",
     "profession": "cleaner",
-    "category": {
-      "title": "cleaning",
-      "image": "./images/Cleaning.png"
-    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.9,
@@ -45,10 +33,6 @@
     "id": "004",
     "name": "Silje Lauritsen",
     "profession": "cleaner",
-    "category": {
-      "title": "cleaning",
-      "image": "./images/Cleaning.png"
-    },
     "city": "Brabrand",
     "price": 110,
     "rating": 4.5,
@@ -60,10 +44,6 @@
     "id": "005",
     "name": "Malthe Kristensen",
     "profession": "cleaner",
-    "category": {
-      "title": "cleaning",
-      "image": "./images/Cleaning.png"
-    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.8,
@@ -75,10 +55,6 @@
     "id": "006",
     "name": "Mohamed Mogensen",
     "profession": "gardener",
-    "category": {
-      "title": "gardening",
-      "image": "./images/Gardening.png"
-    },
     "city": "Aarhus",
     "price": 130,
     "rating": 4.9,
@@ -90,10 +66,6 @@
     "id": "007",
     "name": "Megan Hamilton",
     "profession": "gardener",
-    "category": {
-      "title": "gardening",
-      "image": "./images/Gardening.png"
-    },
     "city": "Aarhus",
     "price": 140,
     "rating": 5,
@@ -104,10 +76,6 @@
     "id": "008",
     "name": "Elias Bruun",
     "profession": "gardener",
-    "category": {
-      "title": "gardening",
-      "image": "./images/Gardening.png"
-    },
     "city": "Silkeborg",
     "price": 130,
     "rating": 4.8,
@@ -119,10 +87,6 @@
     "id": "009",
     "name": "Amanda Petersen",
     "profession": "gardener",
-    "category": {
-      "title": "gardening",
-      "image": "./images/Gardening.png"
-    },
     "city": "Silkeborg",
     "price": 120,
     "rating": 4.7,
@@ -133,10 +97,6 @@
     "id": "010",
     "name": "Jaroslav Moravec",
     "profession": "gardener",
-    "category": {
-      "title": "gardening",
-      "image": "./images/Gardening.png"
-    },
     "city": "Lystrup",
     "price": 150,
     "rating": 4.9,
@@ -148,10 +108,6 @@
     "id": "011",
     "name": "Sandra Koch",
     "profession": "babysitter",
-    "category": {
-      "title": "babysitting",
-      "image": "./images/Babysitting.png"
-    },
     "city": "Lystrup",
     "price": 150,
     "rating": 4.9,
@@ -163,10 +119,6 @@
     "id": "012",
     "name": "Laura Müller",
     "profession": "babysitter",
-    "category": {
-      "title": "babysitting",
-      "image": "./images/Babysitting.png"
-    },
     "city": "Aarhus",
     "price": 135,
     "rating": 4.8,
@@ -178,10 +130,6 @@
     "id": "013",
     "name": "Gloria Giovanni",
     "profession": "babysitter",
-    "category": {
-      "title": "babysitting",
-      "image": "./images/Babysitting.png"
-    },
     "city": "Aarhus",
     "price": 125,
     "rating": 4.8,
@@ -193,10 +141,6 @@
     "id": "014",
     "name": "Iwan Michalski",
     "profession": "babysitter",
-    "category": {
-      "title": "babysitting",
-      "image": "./images/Babysitting.png"
-    },
     "city": "Brabrand",
     "price": 120,
     "rating": 4.7,
@@ -208,10 +152,6 @@
     "id": "015",
     "name": "Louise Andresen",
     "profession": "babysitter",
-    "category": {
-      "title": "babysitting",
-      "image": "./images/Babysitting.png"
-    },
     "city": "Aarhus",
     "price": 130,
     "rating": 5,
@@ -223,10 +163,6 @@
     "id": "016",
     "name": "Mads Sørensen",
     "profession": "mover",
-    "category": {
-      "title": "moving",
-      "image": "./images/Moving.png"
-    },
     "city": "Aarhus",
     "price": 160,
     "rating": 5,
@@ -238,10 +174,6 @@
     "id": "017",
     "name": "Oliver Christiansen",
     "profession": "mover",
-    "category": {
-      "title": "moving",
-      "image": "./images/Moving.png"
-    },
     "city": "Aarhus",
     "price": 155,
     "rating": 5,
@@ -253,10 +185,6 @@
     "id": "018",
     "name": "Bernd Mauer",
     "profession": "mover",
-    "category": {
-      "title": "moving",
-      "image": "./images/Moving.png"
-    },
     "city": "Brabrand",
     "price": 145,
     "rating": 4.9,
@@ -268,10 +196,6 @@
     "id": "019",
     "name": "Christina Henriksen",
     "profession": "mover",
-    "category": {
-      "title": "moving",
-      "image": "./images/Moving.png"
-    },
     "city": "Tilst",
     "price": 155,
     "rating": 4.9,
@@ -283,10 +207,6 @@
     "id": "020",
     "name": "Jaromir Sawicki",
     "profession": "mover",
-    "category": {
-      "title": "moving",
-      "image": "./images/Moving.png"
-    },
     "city": "Risskov",
     "price": 160,
     "rating": 5,
@@ -298,10 +218,6 @@
     "id": "021",
     "name": "Felicjan Wieczorek",
     "profession": "petcarer",
-    "category": {
-      "title": "pets",
-      "image": "./images/Pets.png"
-    },
     "city": "Risskov",
     "price": 120,
     "rating": 5,
@@ -313,10 +229,6 @@
     "id": "022",
     "name": "Simon Christiansen",
     "profession": "petcarer",
-    "category": {
-      "title": "pets",
-      "image": "./images/Pets.png"
-    },
     "city": "Aarhus",
     "price": 115,
     "rating": 5,
@@ -328,10 +240,6 @@
     "id": "023",
     "name": "Gabriela Olszewska",
     "profession": "petcarer",
-    "category": {
-      "title": "pets",
-      "image": "./images/Pets.png"
-    },
     "city": "Aarhus",
     "price": 120,
     "rating": 4.9,
@@ -343,10 +251,6 @@
     "id": "024",
     "name": "Anne-Lise Johansen",
     "profession": "petcarer",
-    "category": {
-      "title": "pets",
-      "image": "./images/Pets.png"
-    },
     "city": "Viby",
     "price": 115,
     "rating": 5,
@@ -358,10 +262,6 @@
     "id": "025",
     "name": "Camilla Johnsen",
     "profession": "petcarer",
-    "category": {
-      "title": "pets",
-      "image": "./images/Pets.png"
-    },
     "city": "Aarhus",
     "price": 115,
     "rating": 5,
@@ -373,10 +273,6 @@
     "id": "026",
     "name": "Alexander Svendsen",
     "profession": "painter",
-    "category": {
-      "title": "painting",
-      "image": "./images/Painting.png"
-    },
     "city": "Aarhus",
     "price": 155,
     "rating": 5,
@@ -388,10 +284,6 @@
     "id": "027",
     "name": "Mohamed Koch",
     "profession": "painter",
-    "category": {
-      "title": "painting",
-      "image": "./images/Painting.png"
-    },
     "city": "Aarhus",
     "price": 165,
     "rating": 5,
@@ -403,10 +295,6 @@
     "id": "028",
     "name": "Josef Skokan",
     "profession": "painter",
-    "category": {
-      "title": "painting",
-      "image": "./images/Painting.png"
-    },
     "city": "Lystrup",
     "price": 145,
     "rating": 4.5,
@@ -418,10 +306,6 @@
     "id": "029",
     "name": "Maximilian Lemann",
     "profession": "painter",
-    "category": {
-      "title": "painting",
-      "image": "./images/Painting.png"
-    },
     "city": "Brabrand",
     "price": 145,
     "rating": 4.7,
@@ -433,10 +317,6 @@
     "id": "030",
     "name": "Nikolaj Nielsen",
     "profession": "painter",
-    "category": {
-      "title": "painting",
-      "image": "./images/Painting.png"
-    },
     "city": "Aarhus",
     "price": 150,
     "rating": 4.8,

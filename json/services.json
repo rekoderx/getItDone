@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "service": "Cleaning",
+    "img": "./images/Cleaning.png"
+  },
+  {
+    "id": "02",
+    "service": "Gardening",
+    "img": "./images/Gardening.png"
+  },
+  {
+    "id": "03",
+    "service": "Moving",
+    "img": "./images/Moving.png"
+  },
+  {
+    "id": "04",
+    "service": "Babysitting",
+    "img": "./images/Babysitting.png"
+  },
+  {
+    "id": "05",
+    "service": "Pets",
+    "img": "./images/Pets.png"
+  },
+  {
+    "id": "06",
+    "service": "Painting",
+    "img": "./images/Painting.png"
+  }
+]

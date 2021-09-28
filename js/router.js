@@ -46,7 +46,6 @@ function navigateTo(pathname) {
   hideAllPages();
   const basePath = location.pathname.replace("index.html", "");
   window.history.pushState({}, pathname, basePath + pathname);
-  console.log(`#${routes[pathname]}`);
   document.querySelector(`#${routes[pathname]}`).style.display = "block";
   setActiveTab(pathname);
 }
