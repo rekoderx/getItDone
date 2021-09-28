@@ -8,6 +8,7 @@ const routes = {
   "#/favorites": "favorites",
   "#/profile-page": "profile-page",
   "#/categories": "categories",
+  "#/freelancers": "freelancers",
 };
 
 /**
@@ -72,19 +73,4 @@ function setActiveTab(pathname) {
       link.classList.remove("active");
     }
   }
-}
-
-// MAKING SEEALL BUTTON WORK - GO TO CATEGORIES
-function goToCategories() {
-  const seeall = document.querySelector(".seeall");
-  seeall.setAttribute("href", "#/categories");
-  navigateTo("#/categories");
-  window.scrollTo(0, 0);
-}
-
-// GO BACK ARROW FUNCTION
-function arrowGoBack() {
-  const backArrow = document.querySelector(".back-home");
-  backArrow.setAttribute("href", "#/home");
-  navigateTo("#/home");
 }

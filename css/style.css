@@ -16,7 +16,6 @@
 /* GENERAL RULES */
 .page {
   display: none;
-  /* min-height: calc(100vh - 56px); */
 }
 
 body {
@@ -37,6 +36,10 @@ body {
 
 .onboarding-btn {
   width: 144px;
+}
+
+.back-home {
+  text-decoration: none;
 }
 
 /* section {
@@ -368,6 +371,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 #home .logo h5 {
@@ -481,7 +485,7 @@ body {
   padding: 10px;
   width: 352px;
   background-color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -637,11 +641,12 @@ body {
 /* FREELANCERS LIST STYLING */
 #freelancers {
   background-color: var(--main-bg-color);
-  height: 100vh;
+  /* height: 100vh; */
 }
 #freelancers .freelancers-container {
   width: 85%;
   margin: 0 auto;
+  padding: 8px 0 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -649,7 +654,6 @@ body {
 }
 
 #freelancers .freelancers-container .arrow-title {
-  width: 80%;
   margin-top: 32px;
   display: flex;
   justify-content: flex-start;
@@ -659,7 +663,10 @@ body {
 
 #freelancers .freelancers-container .arrow-title h3 {
   font-size: 32px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  position: absolute; /* new */
+  left: 50%;
+  transform: translateX(-50%);
   font-weight: 500;
 }
 
@@ -688,10 +695,6 @@ body {
   font-size: 16px;
 }
 
-#freelancers .freelancers-cards-container {
-  height: 450px;
-}
-
 #freelancers .freelancers-container .freelancers-card {
   background-color: #fff;
   border-radius: 10px;
@@ -702,6 +705,7 @@ body {
   box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
   padding: 10px;
   width: 352px;
+  margin: 12px 0;
 }
 
 #freelancers .freelancers-container .freelancers-card .request-image img {
