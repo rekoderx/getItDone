@@ -934,7 +934,7 @@ body {
 
 #search {
   /* padding: 56px; */
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100%;
   margin: 24px auto;
   display: flex;
@@ -951,10 +951,8 @@ body {
 }
 
 #search .heading-login {
-  color: var(--scondary-color);
   font-size: 32px;
   font-weight: 500;
-  align-items: center;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

@@ -124,12 +124,27 @@ function arrowGoBack() {
 
 // GO TO FREELANCERS SECTION FOR EACH CATEGORY
 
-// ORDER BY PRICE
-function orderBy() {
+// ORDER BY Price
+function orderBy(value) {
+  if (value === "price") {
+    sortByPrice(); 
+  } else if (value === "city") {
+    sortByCity();
+  }
+}
+
+function sortByPrice() {
   _freelancers.sort((freelancer1, freelancer2) => {
-    return freelancer1.city.localeCompare(freelancer2.city);
+    return freelancer1.price.localCompare(freelancer2.price);
   });
-  console.log();
+  appendFreelancers(_freelancers);
+}
+
+function sortByCity() {
+  _freelancers.sort((freelancer1, freelancer2) => {
+    return freelancer1.city.localCompare(freelancer2.city);
+  });
+  appendFreelancers(_freelancers);
 }
 
 //SEARCH FUNCTIONALITY
