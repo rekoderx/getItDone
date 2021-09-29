@@ -482,9 +482,9 @@
           </div>
         </a>
         <div class="sort">
-          <h4>Sort:</h4>
-          <button class="sort-name">By Price</button>
-          <button class="sort-city">By City</button>
+          <h4 id="sortBy">Sort:</h4>
+          <button type="button" class="sort-name">By Price</button>
+          <button id="sortBy" onclick="orderBy(this.value)"  type="button" class="sort-city">By City</button>
         </div>
         <div class="freelancers-cards-container">
             <!-- <div class="freelancers-card">
@@ -622,12 +622,8 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
         <i class="fas fa-chevron-left"></i>
         <h3 class="heading-login">Search</h3>
       </div>
-      <input
-        class="input"
-        type="text"
-        name="passwordagain"
-        placeholder="Service, provider or city"
-      />
+      <input class="input" type="text" placeholder="Service, provider or city"
+        onkeyup="search(this.value)" onsearch="search('')"/>
 
       <!-- <div class="main-menu">
         <div class="home menu">

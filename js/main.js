@@ -109,3 +109,41 @@ function arrowGoBack() {
 }
 
 // GO TO FREELANCERS SECTION FOR EACH CATEGORY
+
+// ORDER BY PRICE
+function orderBy() {
+  _freelancers.sort((freelancer1, freelancer2) => {
+    return freelancer1.city.localeCompare(freelancer2.city);
+  });
+  console.log();
+}
+
+//SEARCH FUNCTIONALITY
+
+function search(value) {
+  resetFilterByName();
+  value = value.toLowerCase();
+  const results = _freelancers.filter((freelancer) => {
+    const category = freelancer.category.toLowerCase();
+    if (category.includes(value)) {
+      return freelancer;
+    }
+  });
+  appendFreelancers(results);
+}
+
+function search(value) {
+  value = value.toLowerCase();
+  console.log(value);
+
+  let _usersUrl = [];
+  for (const freelancer of _freelancers) {
+    let category = category.freelancer.toLowerCase();
+
+    if (category.includes(value)) {
+      results.push(freelancer);
+    }
+  }
+  console.log(_freelancers);
+  appendFreelancers(_freelancers);
+}
