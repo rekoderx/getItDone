@@ -59,6 +59,8 @@ function appendFreelancers(freelancers) {
   const freelancersCards = document.querySelector(
     ".freelancers-cards-container"
   );
+  const searchCards = document.querySelector(".search-cards-container");
+
   let html = "";
   for (const freelancer of freelancers) {
     html += `
@@ -78,6 +80,7 @@ function appendFreelancers(freelancers) {
     `;
   }
   freelancersCards.innerHTML = html;
+  searchCards.innerHTML = html;
 }
 
 // SELECT CATEGORY ID
@@ -130,7 +133,6 @@ function orderBy() {
 }
 
 //SEARCH FUNCTIONALITY
-
 function search(value) {
   resetFilterByName();
   value = value.toLowerCase();
@@ -143,18 +145,38 @@ function search(value) {
   appendFreelancers(results);
 }
 
+// function search(value) {
+//   value = value.toLowerCase();
+//   console.log(value);
+
+//   let _usersUrl = [];
+//   for (const freelancer of _freelancers) {
+//     let category = category.freelancer.toLowerCase();
+
+//     if (category.includes(value)) {
+//       results.push(freelancer);
+//     }
+//   }
+//   console.log(_freelancers);
+//   appendFreelancers(_freelancers);
+// }
+
 function search(value) {
-  value = value.toLowerCase();
-  console.log(value);
+  let searchQuery = value.toLowerCase();
+  let filteredFreelancers = [];
+  for (let freelancer of _freelancers) {
+    let name = freelancer.name.toLowerCase();
+    let category = freelancer.category.toLowerCase();
+    let city = freelancer.city.toLowerCase();
 
-  let _usersUrl = [];
-  for (const freelancer of _freelancers) {
-    let category = category.freelancer.toLowerCase();
-
-    if (category.includes(value)) {
-      results.push(freelancer);
+    if (
+      name.includes(searchQuery) ||
+      category.includes(searchQuery) ||
+      city.includes(searchQuery)
+    ) {
+      filteredFreelancers.push(freelancer);
     }
   }
-  console.log(_freelancers);
-  appendFreelancers(_freelancers);
+  console.log(filteredFreelancers);
+  appendFreelancers(filteredFreelancers);
 }
