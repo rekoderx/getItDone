@@ -653,6 +653,11 @@ body {
   align-items: flex-start;
 }
 
+#freelancers .freelancers-container a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
 #freelancers .freelancers-container .arrow-title {
   margin-top: 32px;
   display: flex;

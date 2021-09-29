@@ -1,6 +1,10 @@
 // CREATING DEFAULT LINK VARIABLES
 // AND HEADERS
 let _selectedCategoryId;
+let _selectedFreelancerId;
+let _services = [];
+let _freelancers = [];
+
 const _servicesUrl = "./json/services.json";
 const _usersUrl = "./json/shared.json";
 const _headers = {
@@ -8,9 +12,6 @@ const _headers = {
     "$2b$10$lLZ4Z9H3WZUcJ4XWsirYUO3B5Hk6B/qbX5zeBLvZPl/vbePHGTrii",
   "Content-Tupe": "application/json",
 };
-
-let _services = [];
-let _freelancers = [];
 
 async function loadServices() {
   const url = _servicesUrl; // get the link to json file
@@ -61,17 +62,19 @@ function appendFreelancers(freelancers) {
   let html = "";
   for (const freelancer of freelancers) {
     html += `
-      <div class="freelancers-card">
-        <div class="request-image">
-          <img src="${freelancer.img}" alt="Client Image">
+      <a onclick="selectFreelancer(${freelancer.id})">
+        <div class="freelancers-card">
+          <div class="request-image">
+            <img src="${freelancer.img}" alt="Client Image">
+          </div>
+          <div class="request-text">
+            <img src="./images/5stars.png">
+            <h4>${freelancer.profession}, ${freelancer.city}</h4>
+            <p>${freelancer.name}</p>
+            <p class="price">Avg. Price ${freelancer.price}</p>
+          </div>
         </div>
-        <div class="request-text">
-          <img src="./images/5stars.png">
-          <h4>${freelancer.profession}, ${freelancer.city}</h4>
-          <p>${freelancer.name}</p>
-          <p class="price">Avg. Price ${freelancer.price}</p>
-        </div>
-      </div>
+      </a>
     `;
   }
   freelancersCards.innerHTML = html;
@@ -91,6 +94,14 @@ function selectCategory(id) {
     return freelancer.category === service.service;
   });
   appendFreelancers(filteredFreelancer);
+}
+
+// SELECT FREELANCER ID
+function selectFreelancer(id) {
+  navigateTo("#/freelancer-details");
+  _selectedFreelancerId = id;
+  const user = _freelancers.find((user) => user.id == _selectedFreelancerId);
+  console.log(user);
 }
 
 // MAKING SEEALL BUTTON WORK - GO TO CATEGORIES

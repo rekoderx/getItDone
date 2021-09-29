@@ -9,6 +9,7 @@ const routes = {
   "#/profile-page": "profile-page",
   "#/categories": "categories",
   "#/freelancers": "freelancers",
+  "#/freelancer-details": "freelancer-details",
 };
 
 /**
