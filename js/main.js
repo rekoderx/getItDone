@@ -73,7 +73,7 @@ function appendFreelancers(freelancers) {
             <img src="./images/5stars.png">
             <h4>${freelancer.profession}, ${freelancer.city}</h4>
             <p>${freelancer.name}</p>
-            <p class="price">Avg. Price ${freelancer.price}</p>
+            <p class="price">Price: ${freelancer.price}kr.</p>
           </div>
         </div>
       </a>
