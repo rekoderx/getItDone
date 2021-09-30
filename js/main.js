@@ -127,7 +127,7 @@ function arrowGoBack() {
 // ORDER BY Price
 function orderBy(value) {
   if (value === "price") {
-    sortByPrice(); 
+    sortByPrice();
   } else if (value === "city") {
     sortByCity();
   }
@@ -135,14 +135,14 @@ function orderBy(value) {
 
 function sortByPrice() {
   _freelancers.sort((freelancer1, freelancer2) => {
-    return freelancer1.price.localCompare(freelancer2.price);
+    return freelancer1.price - freelancer2.price;
   });
   appendFreelancers(_freelancers);
 }
 
 function sortByCity() {
   _freelancers.sort((freelancer1, freelancer2) => {
-    return freelancer1.city.localCompare(freelancer2.city);
+    return freelancer1.city.localeCompare(freelancer2.city);
   });
   appendFreelancers(_freelancers);
 }
