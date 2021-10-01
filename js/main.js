@@ -73,7 +73,7 @@ function appendFreelancers(freelancers) {
             <img src="./images/5stars.png">
             <h4>${freelancer.profession}, ${freelancer.city}</h4>
             <p>${freelancer.name}</p>
-            <p class="price">Avg. Price ${freelancer.price}</p>
+            <p class="price">Price: ${freelancer.price}kr.</p>
           </div>
         </div>
       </a>
@@ -125,12 +125,27 @@ function arrowGoBack() {
 
 // GO TO FREELANCERS SECTION FOR EACH CATEGORY
 
-// ORDER BY PRICE
-function orderBy() {
+// ORDER BY Price
+function orderBy(value) {
+  if (value === "price") {
+    sortByPrice();
+  } else if (value === "city") {
+    sortByCity();
+  }
+}
+
+function sortByPrice() {
+  _freelancers.sort((freelancer1, freelancer2) => {
+    return freelancer1.price - freelancer2.price;
+  });
+  appendFreelancers(_freelancers);
+}
+
+function sortByCity() {
   _freelancers.sort((freelancer1, freelancer2) => {
     return freelancer1.city.localeCompare(freelancer2.city);
   });
-  console.log();
+  appendFreelancers(_freelancers);
 }
 
 //SEARCH FUNCTIONALITY

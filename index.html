@@ -483,8 +483,8 @@
         </a>
         <div class="sort">
           <h4 id="sortBy">Sort:</h4>
-          <button type="button" class="sort-name">By Price</button>
-          <button id="sortBy" onclick="orderBy(this.value)"  type="button" class="sort-city">By City</button>
+          <button value="price" onclick="orderBy('price')" type="button" class="sort-name">By Price</button>
+          <button value="city" id="sortBy" onclick="orderBy('city')"  type="button" class="sort-city">By City</button>
         </div>
         <div class="freelancers-cards-container">
             <!-- <div class="freelancers-card">
@@ -502,14 +502,12 @@
     </section>
 
     <!-- FREELANCER DETAILED PAGE -->
-    <section id="freelancer-details" class="page">
+    <!-- <section id="freelancer-details">
       <div class="details-container">
-        <a class="back-home" onclick="arrowGoBack()">
-          <div class="arrow-title">
-            <i class="fas fa-chevron-left"></i>
-            <h3>Joana Doe</h3>
-          </div>
-        </a>
+        <div class="arrow-title">
+          <i class="fas fa-chevron-left"></i>
+          <h3>Joana Doe</h3>
+        </div>
         <div class="freelancer-data">
           <div class="freelancer-image">
             <img src="./images/JoanaDoe.png" alt="freelancer image">
@@ -567,7 +565,7 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
           <button class="btn">Request</button>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Request form -->
     <section id="request-form" class="page">
@@ -621,19 +619,32 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
     <!-- Search page -->
     <section id="search" class="page">
       <div class="left-arrow login-title">
-        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
         <h3 class="heading-login">Search</h3>
       </div>
       <input class="input" type="text" placeholder="Service, provider or city"
         onkeyup="search(this.value)" onsearch="search('')"/>
-
-     <div class="search-cards-container"></div>
+      <div class="search-cards-container"></div>
+      <!-- <div class="main-menu">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </div> -->
     </section>
 
     <!-- Favorites page -->
     <section id="favorites" class="page">
       <div class="left-arrow login-title">
-        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
         <h3 class="heading-login">Favorites</h3>
       </div>
 
@@ -669,18 +680,15 @@ of experience. I can help you with mowing the lawn, hedge trimming and planting 
     <!-- Profile page -->
     <section id="profile-page" class="page">
       <div class="left-arrow login-title">
-        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
         <h3 class="heading-login">Profile</h3>
       </div>
-      <div class="upload-edit-buttom-div">
+        <img src="https://images.generated.photos/aKEGtToHYa2eEfP0KsZb00clryQCh7GQ182DWu9J7-8/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjY2NTY4LmpwZw.jpg" alt="profile picture" class="profile-picture">
         <button type="button" class="upload-image">Upload image</button>
-        <button type="button" class="edit-profile">Edit</button>
-      </div>
       <form>
         <div class="label-input-div">
           <label class="label">Full name</label>
-          <input class="input" type="text name="fullname" placeholder="Your full
-          name">
+          <input class="input" type="text name="fullname" placeholder="Your full name">
         </div>
         <div class="label-input-div">
           <label class="label">Email</label>

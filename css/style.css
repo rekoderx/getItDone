@@ -698,6 +698,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
   font-size: 16px;
+  margin: 5px;
 }
 
 #freelancers .freelancers-container .freelancers-card {
@@ -933,31 +934,27 @@ body {
 /* Search page */
 
 #search {
-  /* padding: 56px; */
+  padding: 56px;
   height: 100vh;
   width: 100%;
-  margin: 24px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 #search .login-title {
-  width: 85%;
-  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
 #search .heading-login {
-  color: var(--scondary-color);
-  font-size: 32px;
-  font-weight: 500;
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
   align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: 100px;
 }
 
 #search .input {
@@ -986,8 +983,9 @@ body {
 
 /* favorites page */
 #favorites {
+  padding: 56px;
   height: 100vh;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -998,6 +996,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 #favorites .heading-login {
@@ -1008,13 +1007,12 @@ body {
   margin-left: 100px;
 }
 
-#favorites .freelancers-container {
-  width: 100%;
-  margin: 0 auto;
+#favorites .freelancers-cards-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  margin: 0 auto;
 }
 
 #favorites .freelancers-card,
@@ -1028,7 +1026,7 @@ body {
   align-items: center;
   box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  /* width: 352px; */
+  /*width: 352px;*/
 }
 
 #favorites .freelancers-card .request-image img,
@@ -1078,6 +1076,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 #profile-page .heading-login {
@@ -1088,14 +1087,20 @@ body {
   margin-left: 100px;
 }
 
-#profile-page .upload-edit-buttom-div {
-  display: flex;
-  flex-direction: column;
+#profile-page .upload-image {
+  display: block;
   align-items: center;
+  margin: 20px auto;
+}
+
+#profile-page img {
+  width: 152px;
+  margin: 0 auto;
+  display: block;
 }
 
 #profile-page .upload-image {
-  width: 100px;
+  width: 152px;
   height: 40px;
   background-color: #fff;
   color: #3c819d;
@@ -1106,14 +1111,10 @@ body {
   font-size: 11px;
 }
 
-#profile-page .edit-profile {
-  width: 100px;
-  height: 40px;
-  background-color: #fff;
-  color: #3c819d;
-  border-radius: 10px;
-  border: 1px solid #707070;
-  box-shadow: 1px 1px;
-  font-family: "Poppins";
-  font-size: 11px;
+#profile-page .label-input-div {
+  padding: 5px;
+}
+
+#profile-page .btn {
+  margin-top: 24px;
 }
