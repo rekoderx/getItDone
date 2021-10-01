@@ -104,6 +104,30 @@ function selectCategory(id) {
   _filteredFreelancers = filteredFreelancer;
 }
 
+// SELECT FREELANCER ID - same functionality like the above function, this time to get every user ID, when clicked on a card
+function selectFreelancer(id) {
+  navigateTo("#/freelancer-details");
+  _selectedFreelancerId = id;
+  const user = _freelancers.find((user) => user.id == _selectedFreelancerId);
+
+  // get the user name
+  let userName = document.querySelector("#freelancer-details .arrow-title h3");
+  let userImage = document.querySelector(
+    "#freelancer-details .freelancer-image img"
+  );
+  let userProfession = document.querySelector(
+    "#freelancer-details .freelancer-text h4"
+  );
+  let userJobDescr = document.querySelector(
+    "#freelancer-details .job-description p"
+  );
+
+  userName.textContent = `${user.name}`;
+  userImage.src = user.img;
+  userProfession.textContent = `${user.profession}, ${user.city}`;
+  userJobDescr.textContent = `${user.description}`;
+}
+
 // ***********************************************
 // ORDER BY Price and By City
 function orderBy(value) {
@@ -128,13 +152,6 @@ function sortByCity() {
   appendFreelancers(_filteredFreelancers);
 }
 // **************************************************
-
-// SELECT FREELANCER ID - same functionality like the above function, this time to get every user ID, when clicked on a card
-function selectFreelancer(id) {
-  navigateTo("#/freelancer-details");
-  _selectedFreelancerId = id;
-  const user = _freelancers.find((user) => user.id == _selectedFreelancerId);
-}
 
 // MAKING SEEALL BUTTON WORK - GO TO CATEGORIES
 // when the user clicks on see all... link, the link's href gets the #/categories route and the pages switches to All Categories
