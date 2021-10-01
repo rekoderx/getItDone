@@ -90,6 +90,7 @@ function selectCategory(id) {
   const service = _services.find(
     (service) => service.id == _selectedCategoryId
   );
+  console.log(service);
   let pageTitle = document.querySelector(".page-title");
   pageTitle.textContent = service.service;
   // FILTER FREELANERS BY CATEGORY
