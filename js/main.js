@@ -8,12 +8,6 @@ let _filteredFreelancers = [];
 
 const _servicesUrl = "./json/services.json"; // link to services.json
 const _usersUrl = "./json/shared.json"; // link to freelancers.json
-const _headers = {
-  //headers used from JSONBIN.IO
-  "X-Master-Key":
-    "$2b$10$lLZ4Z9H3WZUcJ4XWsirYUO3B5Hk6B/qbX5zeBLvZPl/vbePHGTrii",
-  "Content-Tupe": "application/json",
-};
 
 // Function declaration for getting the data from services.json and display them on the screen
 async function loadServices() {
@@ -138,6 +132,7 @@ function orderBy(value) {
   }
 }
 
+//sort the freelancers by subtracting their prices, append freelancers in each category in in ascending order of their price
 function sortByPrice() {
   _filteredFreelancers.sort((freelancer1, freelancer2) => {
     return freelancer1.price - freelancer2.price;
@@ -145,6 +140,7 @@ function sortByPrice() {
   appendFreelancers(_filteredFreelancers);
 }
 
+//sort freelancers by compare their city, append the freelancers in each category with the city in alpabetic order
 function sortByCity() {
   _filteredFreelancers.sort((freelancer1, freelancer2) => {
     return freelancer1.city.localeCompare(freelancer2.city);
