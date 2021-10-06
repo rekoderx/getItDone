@@ -10,6 +10,7 @@ const _servicesUrl = "./json/services.json"; // link to services.json
 const _usersUrl = "./json/shared.json"; // link to freelancers.json
 
 // Function declaration for getting the data from services.json and display them on the screen
+// MADE  BY  ALL
 async function loadServices() {
   const url = _servicesUrl; // get the link to json file
   const response = await fetch(url); // wait for the response
@@ -21,6 +22,7 @@ async function loadServices() {
 loadServices(); // calling the above function
 
 // Function declaration for getting the data from shared.json(freelancers) and assign it to the _freelancers array
+// MADE  BY  ALL
 async function loadFreelancers() {
   const url = _usersUrl; // get the link to json file
   const response = await fetch(url); // wait for the response
@@ -31,6 +33,7 @@ async function loadFreelancers() {
 loadFreelancers();
 
 // Function to append the services to the DOM
+// MADE BY DAVID & ROBERTO
 function appendCategories(services) {
   const cardsContainer = document.querySelector(".home-cards-container"); // selecting the container holding the new displayed data
   let html = "";
@@ -53,6 +56,7 @@ function appendCategories(services) {
 }
 
 // Function to append the freelancers to the DOM
+// MADE BY KINGA
 function appendFreelancers(freelancers) {
   const freelancersCards = document.querySelector(
     ".freelancers-cards-container"
@@ -82,6 +86,7 @@ function appendFreelancers(freelancers) {
 }
 
 // Function to select the ID of each category clicked by the user
+// MADE BY DAVID AND KINGA
 function selectCategory(id) {
   navigateTo("#/freelancers"); // each time a category is clicked, the page swithces to the one with that specific cateogry
   _selectedCategoryId = id; // using the global variable _selectedCategoryId to assign the id of each category
@@ -99,6 +104,7 @@ function selectCategory(id) {
 }
 
 // SELECT FREELANCER ID - same functionality like the above function, this time to get every user ID, when clicked on a card
+// MADE BY ROBERTO AND DAVID
 function selectFreelancer(id) {
   navigateTo("#/freelancer-details");
   _selectedFreelancerId = id;
@@ -123,6 +129,7 @@ function selectFreelancer(id) {
 }
 
 // ***********************************************
+// MADE BY DAVID & KINGA
 // ORDER BY Price and By City
 function orderBy(value) {
   if (value === "price") {
@@ -151,6 +158,7 @@ function sortByCity() {
 
 // MAKING SEEALL BUTTON WORK - GO TO CATEGORIES
 // when the user clicks on see all... link, the link's href gets the #/categories route and the pages switches to All Categories
+// MADE BY ROBERTO
 function goToCategories() {
   const seeall = document.querySelector(".seeall");
   seeall.setAttribute("href", "#/categories");
@@ -160,26 +168,15 @@ function goToCategories() {
 
 // GO BACK ARROW FUNCTION
 // function used for the back arrow in the top left corner, in order to switch back to the last page.
+// MADE BY ROBERTO
 function arrowGoBack() {
   const backArrow = document.querySelector(".back-home");
   backArrow.setAttribute("href", "#/home"); // setting the #home value for the href attribute of the seeall button.
   navigateTo("#/home");
 }
 
-//SEARCH FUNCTIONALITY
-function search(value) {
-  resetFilterByName();
-  value = value.toLowerCase();
-  const results = _freelancers.filter((freelancer) => {
-    const category = freelancer.category.toLowerCase();
-    if (category.includes(value)) {
-      return freelancer;
-    }
-  });
-  appendFreelancers(results);
-}
-
 // search functionality for the SEARCH page
+// MADE BY DAVID
 function search(value) {
   let searchQuery = value.toLowerCase(); // making sure the typed value in the search input is always lowerCase
   let filteredFreelancers = []; // declaring a new empty array
