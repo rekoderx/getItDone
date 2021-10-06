@@ -784,6 +784,7 @@ body {
 
 #freelancer-details .details-container .freelancer-data img {
   width: 128px;
+  border-radius: 10px;
 }
 
 #freelancer-details .verified {
